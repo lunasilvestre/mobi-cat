@@ -9,8 +9,8 @@ terraform {
   }
 
   backend "gcs" {
-    bucket  = "your-terraform-state-bucket"
-    prefix  = "terraform/state"
+    bucket  = var.bucket_name
+    prefix  = "mitma/tf/state"
   }
 }
 
@@ -26,15 +26,27 @@ variable "gcp_credentials_file" {
 
 variable "project_id" {
   description = "The GCP project ID"
+  default     = "$GCP_PROJECT_ID"
 }
 
 variable "region" {
   description = "The GCP region to deploy resources"
+  default     = "$GCP_REGION"
+}
+
+variable "bucket_name" {
+  description = "The GCS bucket name"
+  default     = "$GCS_BUCKET_NAME"
+}
+
+variable "k8s_cluster_name" {
+  description = "The name of the Kubernetes cluster"
+  default     = "$K8S_CLUSTER_NAME"
 }
 
 # GKE Cluster Configuration with Preemptible VMs
 resource "google_container_cluster" "primary" {
-  name     = "preemptible-cluster"
+  name     = var.k8s_cluster_name
   location = var.region
 
   initial_node_count = 1
@@ -60,14 +72,24 @@ resource "google_container_cluster" "primary" {
   }
 }
 
+variable "pubsub_topic_name" {
+  description = "The name of the Google Pub/Sub Topic"
+  default     = "$PUBSUB_TOPIC_NAME"
+}
+
+variable "pubsub_subscription_name" {
+  description = "The name of the Google Subscription"
+  default     = "$PUBSUB_SUBSCRIPTION_NAME"
+}
+
 # Google Pub/Sub Topic for initiating tasks
 resource "google_pubsub_topic" "main_topic" {
-  name = "file-download-topic"
+  name = var.pubsub_topic_name
 }
 
 # Google Pub/Sub Subscription for processing tasks
 resource "google_pubsub_subscription" "main_subscription" {
-  name  = "file-download-subscription"
+  name  = var.pubsub_subscription_name
   topic = google_pubsub_topic.main_topic.id
 
   ack_deadline_seconds = 20

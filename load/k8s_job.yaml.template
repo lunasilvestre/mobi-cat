@@ -1,4 +1,4 @@
-# k8s_job.yaml
+# k8s_job.yaml.template
 apiVersion: batch/v1
 kind: Job
 metadata:
@@ -8,5 +8,5 @@ spec:
     spec:
       containers:
       - name: downloader
-        image: gcr.io/your-project/downloader:latest
+        image: gcr.io/${GCP_PROJECT_ID}/downloader:latest
       restartPolicy: OnFailure

@@ -1,5 +1,5 @@
 # check_gcs_bucket.sh
-BUCKET_NAME="your-bucket-name"
+BUCKET_NAME="$GCS_BUCKET_NAME"
 
 if gsutil ls -b gs://$BUCKET_NAME; then
   echo "Bucket exists and accessible."
