@@ -1,9 +1,6 @@
 # build_and_push.sh
 #!/bin/bash
 
-# Load environment variables from the .env file
-export $(grep -v '^#' .env | xargs)
-
 # Define the image name
 IMAGE_NAME="gcr.io/$GCP_PROJECT_ID/downloader:latest"
 

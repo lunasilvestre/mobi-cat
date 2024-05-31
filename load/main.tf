@@ -22,6 +22,7 @@ provider "google" {
 
 variable "gcp_credentials_file" {
   description = "Path to the Google Cloud credentials file"
+  default     = "$GOOGLE_APPLICATION_CREDENTIALS"
 }
 
 variable "project_id" {
@@ -49,7 +50,7 @@ resource "google_container_cluster" "primary" {
   name     = var.k8s_cluster_name
   location = var.region
 
-  initial_node_count = 1
+  initial_node_count = 2
 
   node_config {
     preemptible  = true
@@ -68,7 +69,7 @@ resource "google_container_cluster" "primary" {
 
   node_pool {
     name       = "my-node-pool"
-    node_count = 1
+    node_count = 2
   }
 }
 
