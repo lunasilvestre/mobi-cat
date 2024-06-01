@@ -1,10 +1,21 @@
 #!/bin/bash
 
 # Set variables
-PROJECT_ID="$GCP_PROJECT_ID"
+PROJECT_NAME="$GCP_PROJECT_NAME"
 SERVICE_ACCOUNT_NAME="$GCP_SERVICE_ACCOUNT_NAME"
-SERVICE_ACCOUNT_ID="${SERVICE_ACCOUNT_NAME}@${PROJECT_ID}.iam.gserviceaccount.com"
 KEY_FILE_PATH="./service-account-key.json"
+
+# Fetch project ID from project name
+PROJECT_ID=$(gcloud projects list --filter="name=${PROJECT_NAME}" --format="value(projectId)")
+if [ -z "$PROJECT_ID" ]; then
+    echo "Failed to fetch Project ID for project name: $PROJECT_NAME"
+    exit 1
+fi
+SERVICE_ACCOUNT_ID="${SERVICE_ACCOUNT_NAME}@${PROJECT_ID}.iam.gserviceaccount.com"
+
+# Authenticate with gcloud
+gcloud auth login
+gcloud config set project $PROJECT_ID
 
 # Enable required services
 gcloud services enable iam.googleapis.com
@@ -55,4 +66,7 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 gcloud iam service-accounts keys create ${KEY_FILE_PATH} \
     --iam-account ${SERVICE_ACCOUNT_ID}
 
-echo "Service account key has been created and saved to ${KEY_FILE_PATH}. Please keep this file secure."
+# Read the content of the service account key file and export it to an environment variable
+export GCLOUD_CREDENTIALS_JSON=$(cat ${KEY_FILE_PATH})
+
+echo "Service account key has been created, saved to ${KEY_FILE_PATH}, and loaded into the GCLOUD_CREDENTIALS_JSON environment variable. Please keep this file secure."
