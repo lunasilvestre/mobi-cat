@@ -1,3 +1,6 @@
 .env
 venv
 service-account-key.json
+.terraform*
+.terraform/*
+*.log

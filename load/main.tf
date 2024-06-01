@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "gcs" {
-    bucket  = var.bucket_name
+    bucket  = "lunasilvestre.com"
     prefix  = "mitma/tf/state"
   }
 }
@@ -20,41 +20,24 @@ provider "google" {
   region      = var.region
 }
 
-variable "gcp_credentials_file" {
-  description = "Path to the Google Cloud credentials file"
-  default     = "$GOOGLE_APPLICATION_CREDENTIALS"
-}
-
-variable "project_id" {
-  description = "The GCP project ID"
-  default     = "$GCP_PROJECT_ID"
-}
-
-variable "region" {
-  description = "The GCP region to deploy resources"
-  default     = "$GCP_REGION"
-}
-
-variable "bucket_name" {
-  description = "The GCS bucket name"
-  default     = "$GCS_BUCKET_NAME"
-}
-
-variable "k8s_cluster_name" {
-  description = "The name of the Kubernetes cluster"
-  default     = "$K8S_CLUSTER_NAME"
-}
-
 # GKE Cluster Configuration with Preemptible VMs
 resource "google_container_cluster" "primary" {
   name     = var.k8s_cluster_name
   location = var.region
 
-  initial_node_count = 2
+  # Remove the conflicted node_config; use separate node pools
+  initial_node_count = 1
+}
+
+resource "google_container_node_pool" "primary_nodes" {
+  cluster    = google_container_cluster.primary.name
+  name       = "primary-node-pool"
+  location   = var.region
 
   node_config {
     preemptible  = true
     machine_type = "e2-micro"
+    disk_size_gb = 10
 
     oauth_scopes = [
       "https://www.googleapis.com/auth/devstorage.read_write",
@@ -67,21 +50,9 @@ resource "google_container_cluster" "primary" {
     ]
   }
 
-  node_pool {
-    name       = "my-node-pool"
-    node_count = 2
-  }
+  initial_node_count = 3
 }
 
-variable "pubsub_topic_name" {
-  description = "The name of the Google Pub/Sub Topic"
-  default     = "$PUBSUB_TOPIC_NAME"
-}
-
-variable "pubsub_subscription_name" {
-  description = "The name of the Google Subscription"
-  default     = "$PUBSUB_SUBSCRIPTION_NAME"
-}
 
 # Google Pub/Sub Topic for initiating tasks
 resource "google_pubsub_topic" "main_topic" {

@@ -12,10 +12,10 @@ func TestTerraform(t *testing.T) {
 
     // Set Terraform options
     terraformOptions := &terraform.Options{
-        TerraformDir: "../load",
+        TerraformDir: "../../load",
         Vars: map[string]interface{}{
             "gcp_credentials_file": os.Getenv("GOOGLE_APPLICATION_CREDENTIALS"),
-            "project_id":           os.Getenv("GCP_PROJECT_ID"),
+            "project_id":           os.Getenv("GCP_PROJECT_NAME"),
             "region":               os.Getenv("GCP_REGION"),
             "bucket_name":          os.Getenv("GCS_BUCKET_NAME"),
             "k8s_cluster_name":     os.Getenv("K8S_CLUSTER_NAME"),

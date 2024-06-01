@@ -13,6 +13,7 @@ check_gcloud_authentication() {
 if [ ! -z "$GCLOUD_CREDENTIALS_JSON" ]; then
   echo "$GCLOUD_CREDENTIALS_JSON" > /tmp/service-account-key.json
   export GOOGLE_APPLICATION_CREDENTIALS="/tmp/service-account-key.json"
+  export GCLOUD_CREDENTIALS_JSON=""
   echo "Service account key has been set successfully."
 else
   echo "Error: GCLOUD_CREDENTIALS_JSON secret is not set."
