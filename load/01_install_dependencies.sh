@@ -65,6 +65,14 @@ if ! dpkg -l | grep -qw python3-venv; then
     sudo apt-get install -y python3-venv
 fi
 
+# Install Go
+if ! command_exists go; then
+    echo "Go not found, installing Go..."
+    sudo apt-get install -y golang-go
+else
+    echo "Go already installed."
+fi
+
 # Create the virtual environment
 if [ ! -d "venv" ]; then
     python3 -m venv venv
