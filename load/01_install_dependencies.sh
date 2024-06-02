@@ -8,37 +8,6 @@ command_exists() {
 # Update package list and install prerequisites
 sudo apt-get update
 
-# Install Terraform
-if ! command_exists terraform; then
-    echo "Terraform not found, installing Terraform..."
-
-    # Download Terraform
-    wget https://releases.hashicorp.com/terraform/1.0.11/terraform_1.0.11_linux_amd64.zip
-
-    # Unzip and move to /usr/local/bin
-    unzip terraform_1.0.11_linux_amd64.zip
-    sudo mv terraform /usr/local/bin/
-
-    # Cleanup
-    rm terraform_1.0.11_linux_amd64.zip
-else
-    echo "Terraform already installed."
-fi
-
-# Install Docker
-if ! command_exists docker; then
-    echo "Docker not found, installing Docker..."
-
-    # Install Docker using convenience script from Docker
-    curl -fsSL https://get.docker.com -o get-docker.sh
-    sudo sh get-docker.sh
-
-    # Cleanup
-    rm get-docker.sh
-else
-    echo "Docker already installed."
-fi
-
 # Install gcloud SDK
 if ! command_exists gcloud; then
     echo "gcloud not found, installing gcloud SDK..."
@@ -65,14 +34,6 @@ if ! dpkg -l | grep -qw python3-venv; then
     sudo apt-get install -y python3-venv
 fi
 
-# Install Go
-if ! command_exists go; then
-    echo "Go not found, installing Go..."
-    sudo apt-get install -y golang-go
-else
-    echo "Go already installed."
-fi
-
 # Create the virtual environment
 if [ ! -d "venv" ]; then
     python3 -m venv venv
@@ -96,6 +57,6 @@ fi
 
 # Install Python dependencies
 echo "Installing Python dependencies within virtual environment..."
-pip install google-cloud-pubsub
+pip install google-cloud-pubsub google-api-python-client
 
 echo "All dependencies installed successfully within the virtual environment."
