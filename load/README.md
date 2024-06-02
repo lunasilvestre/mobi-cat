@@ -10,7 +10,7 @@ This document provides a step-by-step guide to the initial setup and loading pro
 4. **Loading Google Credentials** (`03_load_google_creds.sh`)
 5. **Checking GCS Bucket** (`04_check_gcs_bucket.sh`)
 6. **Testing Terraform Deployment** (`test/tf_test.go`)
-7. **Terraform Deployment** (`05_deploy_tf.sh`)
+7. **Deploying Terraform** (`05_deploy_tf.sh`)
 
 ## Step-by-Step Instructions
 
@@ -50,7 +50,7 @@ Source this script to load the necessary Google credentials for your environment
 source ./03_load_google_creds.sh
 ```
 
-5. Checking GCS Bucket - `04_check_gcs_bucket.sh`
+### 5. Checking GCS Bucket - `04_check_gcs_bucket.sh`
 
 This script checks the existence and accessibility of the GCS bucket. It can be run as a normal script, and it might be a good idea to move it to the test/ directory for better organization.
 
@@ -59,30 +59,31 @@ This script checks the existence and accessibility of the GCS bucket. It can be 
 ./04_check_gcs_bucket.sh
 ```
 
-6. Testing Terraform Deployment - `test/tf_test.go`
+### 6. Testing Terraform Deployment - `test/tf_test.go`
 
 Before running the final deployment, it is crucial to test it using Go to ensure that your Terraform configuration is correct.
+
 Steps to Set Up and Initialize the Go Project:
 
-  i) Navigate to the Test Directory:
-    ```sh
-    cd ./load/test
-    ```
-  ii) Initialize a Go Module:
-    ```sh
-    go mod init mobi-cat
-    ```
-  iii) Add Dependencies:
-    ```sh
-    go get github.com/gruntwork-io/terratest/modules/terraform
-    go get github.com/stretchr/testify
-    ```
-  iv) Run the Tests:
-    ```sh
-    go test -v
-    ```
+i. Navigate to the Test Directory:
+  ```sh
+  cd ./load/test
+  ```
+ii. Initialize a Go Module:
+  ```sh
+  go mod init mobi-cat
+  ```
+iii. Add Dependencies:
+  ```sh
+  go get github.com/gruntwork-io/terratest/modules/terraform
+  go get github.com/stretchr/testify
+  ```
+iv. Run the Tests:
+  ```sh
+  go test -v
+  ```
 
-7. Terraform Deployment - `05_deploy_tf.sh`
+### 7. Deploying Terraform - `05_deploy_tf.sh`
 
 After successfully testing with Go, you can run the final deployment.
 

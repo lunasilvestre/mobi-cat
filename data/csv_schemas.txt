@@ -1,0 +1,186 @@
+Schema for /home/nls/data/mitma/estudios_basicos/calidad/ficheros-diarios/2023-09/20230919_distritos_descartados.csv:
+fecha|zona
+
+Schema for /home/nls/data/mitma/estudios_basicos/calidad/ficheros-diarios/2023-10/20231019_distritos_descartados.csv:
+fecha|zona
+
+Schema for /home/nls/data/mitma/estudios_basicos/calidad/ficheros-diarios/2023-11/20231117_distritos_descartados.csv:
+fecha|zona
+
+Schema for /home/nls/data/mitma/estudios_basicos/calidad/ficheros-diarios/2023-12/20231231_distritos_descartados.csv:
+fecha|zona
+
+Schema for /home/nls/data/mitma/estudios_basicos/calidad/ficheros-diarios/2024-01/20240109_distritos_descartados.csv:
+fecha|zona
+
+Schema for /home/nls/data/mitma/estudios_basicos/calidad/ficheros-diarios/2024-02/20240204_distritos_descartados.csv:
+fecha|zona
+
+Schema for /home/nls/data/mitma/estudios_basicos/calidad/ficheros-diarios/2024-03/20240311_distritos_descartados.csv:
+fecha|zona
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/pernoctaciones/ficheros-diarios/2023-09/20230911_Pernoctaciones_distritos.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/pernoctaciones/ficheros-diarios/2023-12/20231223_Pernoctaciones_distritos.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/pernoctaciones/ficheros-diarios/2024-01/20240111_Pernoctaciones_distritos.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/pernoctaciones/ficheros-diarios/2024-02/20240229_Pernoctaciones_distritos.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/pernoctaciones/ficheros-diarios/2024-03/20240320_Pernoctaciones_distritos.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/pernoctaciones/meses-completos/202403_Pernoctaciones_distritos/20240320_Pernoctaciones_distritos.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/personas/ficheros-diarios/2023-09/20230904_Personas_dia_distritos.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/personas/ficheros-diarios/2023-12/20231210_Personas_dia_distritos.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/personas/ficheros-diarios/2024-01/20240115_Personas_dia_distritos.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/personas/ficheros-diarios/2024-02/20240211_Personas_dia_distritos.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/personas/ficheros-diarios/2024-03/20240319_Personas_dia_distritos.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/personas/meses-completos/202403_Personas_dia_distritos/20240319_Personas_dia_distritos.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/viajes/ficheros-diarios/2023-09/20230920_Viajes_distritos.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/viajes/ficheros-diarios/2023-10/20231020_Viajes_distritos.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/viajes/ficheros-diarios/2023-12/20231210_Viajes_distritos.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/viajes/ficheros-diarios/2024-01/20240122_Viajes_distritos.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/viajes/ficheros-diarios/2024-02/20240222_Viajes_distritos.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/viajes/ficheros-diarios/2024-03/20240319_Viajes_distritos.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-distritos/viajes/meses-completos/202403_Viajes_distritos/20240319_Viajes_distritos.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/pernoctaciones/ficheros-diarios/2023-09/20230919_Pernoctaciones_GAU.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/pernoctaciones/ficheros-diarios/2023-12/20231202_Pernoctaciones_GAU.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/pernoctaciones/ficheros-diarios/2024-01/20240119_Pernoctaciones_GAU.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/pernoctaciones/ficheros-diarios/2024-02/20240220_Pernoctaciones_GAU.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/pernoctaciones/ficheros-diarios/2024-03/20240322_Pernoctaciones_GAU.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/pernoctaciones/meses-completos/202403_Pernoctaciones_GAU/20240322_Pernoctaciones_GAU.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/personas/ficheros-diarios/2023-09/20230917_Personas_dia_GAU.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/personas/ficheros-diarios/2023-12/20231215_Personas_dia_GAU.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/personas/ficheros-diarios/2024-01/20240130_Personas_dia_GAU.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/personas/ficheros-diarios/2024-02/20240210_Personas_dia_GAU.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/personas/ficheros-diarios/2024-03/20240311_Personas_dia_GAU.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/personas/meses-completos/202403_Personas_dia_GAU/20240311_Personas_dia_GAU.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/viajes/ficheros-diarios/2023-09/20230909_Viajes_GAU.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/viajes/ficheros-diarios/2023-12/20231230_Viajes_GAU.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/viajes/ficheros-diarios/2024-01/20240108_Viajes_GAU.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/viajes/ficheros-diarios/2024-02/20240213_Viajes_GAU.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/viajes/ficheros-diarios/2024-03/20240326_Viajes_GAU.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-GAU/viajes/meses-completos/202403_Viajes_GAU/20240326_Viajes_GAU.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/pernoctaciones/ficheros-diarios/2023-09/20230919_Pernoctaciones_municipios.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/pernoctaciones/ficheros-diarios/2023-12/20231201_Pernoctaciones_municipios.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/pernoctaciones/ficheros-diarios/2024-01/20240127_Pernoctaciones_municipios.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/pernoctaciones/ficheros-diarios/2024-02/20240203_Pernoctaciones_municipios.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/pernoctaciones/ficheros-diarios/2024-03/20240315_Pernoctaciones_municipios.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/pernoctaciones/meses-completos/202403_Pernoctaciones_municipios/20240315_Pernoctaciones_municipios.csv.gz:
+fecha|zona_residencia|zona_pernoctacion|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/personas/ficheros-diarios/2023-09/20230905_Personas_dia_municipios.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/personas/ficheros-diarios/2023-12/20231231_Personas_dia_municipios.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/personas/ficheros-diarios/2024-01/20240128_Personas_dia_municipios.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/personas/ficheros-diarios/2024-02/20240206_Personas_dia_municipios.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/personas/ficheros-diarios/2024-03/20240318_Personas_dia_municipios.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/personas/meses-completos/202403_Personas_dia_municipios/20240318_Personas_dia_municipios.csv.gz:
+fecha|zona_pernoctacion|edad|sexo|numero_viajes|personas
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/viajes/ficheros-diarios/2023-09/20230915_Viajes_municipios.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/viajes/ficheros-diarios/2023-12/20231229_Viajes_municipios.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/viajes/ficheros-diarios/2024-01/20240101_Viajes_municipios.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/viajes/ficheros-diarios/2024-02/20240225_Viajes_municipios.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/viajes/ficheros-diarios/2024-03/20240316_Viajes_municipios.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+
+Schema for /home/nls/data/mitma/estudios_basicos/por-municipios/viajes/meses-completos/202403_Viajes_municipios/20240316_Viajes_municipios.csv.gz:
+fecha|periodo|origen|destino|distancia|actividad_origen|actividad_destino|estudio_origen_posible|estudio_destino_posible|residencia|renta|edad|sexo|viajes|viajes_km
+

@@ -1,0 +1,1741 @@
+.
+├── estudios_basicos
+│   ├── calidad
+│   │   └── ficheros-diarios
+│   │       ├── 2023-09
+│   │       │   ├── 20230901_distritos_descartados.csv
+│   │       │   ├── 20230902_distritos_descartados.csv
+│   │       │   ├── 20230903_distritos_descartados.csv
+│   │       │   ├── 20230904_distritos_descartados.csv
+│   │       │   ├── 20230905_distritos_descartados.csv
+│   │       │   ├── 20230906_distritos_descartados.csv
+│   │       │   ├── 20230907_distritos_descartados.csv
+│   │       │   ├── 20230908_distritos_descartados.csv
+│   │       │   ├── 20230909_distritos_descartados.csv
+│   │       │   ├── 20230910_distritos_descartados.csv
+│   │       │   ├── 20230911_distritos_descartados.csv
+│   │       │   ├── 20230912_distritos_descartados.csv
+│   │       │   ├── 20230913_distritos_descartados.csv
+│   │       │   ├── 20230914_distritos_descartados.csv
+│   │       │   ├── 20230915_distritos_descartados.csv
+│   │       │   ├── 20230916_distritos_descartados.csv
+│   │       │   ├── 20230917_distritos_descartados.csv
+│   │       │   ├── 20230918_distritos_descartados.csv
+│   │       │   ├── 20230919_distritos_descartados.csv
+│   │       │   ├── 20230920_distritos_descartados.csv
+│   │       │   ├── 20230921_distritos_descartados.csv
+│   │       │   ├── 20230922_distritos_descartados.csv
+│   │       │   ├── 20230923_distritos_descartados.csv
+│   │       │   ├── 20230924_distritos_descartados.csv
+│   │       │   ├── 20230925_distritos_descartados.csv
+│   │       │   ├── 20230926_distritos_descartados.csv
+│   │       │   ├── 20230927_distritos_descartados.csv
+│   │       │   ├── 20230928_distritos_descartados.csv
+│   │       │   ├── 20230929_distritos_descartados.csv
+│   │       │   └── 20230930_distritos_descartados.csv
+│   │       ├── 2023-10
+│   │       │   ├── 20231001_distritos_descartados.csv
+│   │       │   ├── 20231002_distritos_descartados.csv
+│   │       │   ├── 20231003_distritos_descartados.csv
+│   │       │   ├── 20231004_distritos_descartados.csv
+│   │       │   ├── 20231005_distritos_descartados.csv
+│   │       │   ├── 20231006_distritos_descartados.csv
+│   │       │   ├── 20231007_distritos_descartados.csv
+│   │       │   ├── 20231008_distritos_descartados.csv
+│   │       │   ├── 20231009_distritos_descartados.csv
+│   │       │   ├── 20231010_distritos_descartados.csv
+│   │       │   ├── 20231011_distritos_descartados.csv
+│   │       │   ├── 20231012_distritos_descartados.csv
+│   │       │   ├── 20231013_distritos_descartados.csv
+│   │       │   ├── 20231014_distritos_descartados.csv
+│   │       │   ├── 20231015_distritos_descartados.csv
+│   │       │   ├── 20231016_distritos_descartados.csv
+│   │       │   ├── 20231017_distritos_descartados.csv
+│   │       │   ├── 20231018_distritos_descartados.csv
+│   │       │   ├── 20231019_distritos_descartados.csv
+│   │       │   ├── 20231020_distritos_descartados.csv
+│   │       │   ├── 20231021_distritos_descartados.csv
+│   │       │   ├── 20231022_distritos_descartados.csv
+│   │       │   ├── 20231023_distritos_descartados.csv
+│   │       │   ├── 20231024_distritos_descartados.csv
+│   │       │   ├── 20231025_distritos_descartados.csv
+│   │       │   ├── 20231028_distritos_descartados.csv
+│   │       │   └── 20231029_distritos_descartados.csv
+│   │       ├── 2023-11
+│   │       │   ├── 20231104_distritos_descartados.csv
+│   │       │   ├── 20231105_distritos_descartados.csv
+│   │       │   ├── 20231106_distritos_descartados.csv
+│   │       │   ├── 20231107_distritos_descartados.csv
+│   │       │   ├── 20231108_distritos_descartados.csv
+│   │       │   ├── 20231109_distritos_descartados.csv
+│   │       │   ├── 20231110_distritos_descartados.csv
+│   │       │   ├── 20231111_distritos_descartados.csv
+│   │       │   ├── 20231112_distritos_descartados.csv
+│   │       │   ├── 20231113_distritos_descartados.csv
+│   │       │   ├── 20231114_distritos_descartados.csv
+│   │       │   ├── 20231115_distritos_descartados.csv
+│   │       │   ├── 20231116_distritos_descartados.csv
+│   │       │   ├── 20231117_distritos_descartados.csv
+│   │       │   ├── 20231118_distritos_descartados.csv
+│   │       │   ├── 20231119_distritos_descartados.csv
+│   │       │   ├── 20231120_distritos_descartados.csv
+│   │       │   ├── 20231121_distritos_descartados.csv
+│   │       │   ├── 20231122_distritos_descartados.csv
+│   │       │   ├── 20231123_distritos_descartados.csv
+│   │       │   ├── 20231124_distritos_descartados.csv
+│   │       │   ├── 20231125_distritos_descartados.csv
+│   │       │   ├── 20231126_distritos_descartados.csv
+│   │       │   ├── 20231127_distritos_descartados.csv
+│   │       │   ├── 20231128_distritos_descartados.csv
+│   │       │   ├── 20231129_distritos_descartados.csv
+│   │       │   └── 20231130_distritos_descartados.csv
+│   │       ├── 2023-12
+│   │       │   ├── 20231201_distritos_descartados.csv
+│   │       │   ├── 20231202_distritos_descartados.csv
+│   │       │   ├── 20231203_distritos_descartados.csv
+│   │       │   ├── 20231204_distritos_descartados.csv
+│   │       │   ├── 20231205_distritos_descartados.csv
+│   │       │   ├── 20231206_distritos_descartados.csv
+│   │       │   ├── 20231207_distritos_descartados.csv
+│   │       │   ├── 20231208_distritos_descartados.csv
+│   │       │   ├── 20231209_distritos_descartados.csv
+│   │       │   ├── 20231210_distritos_descartados.csv
+│   │       │   ├── 20231211_distritos_descartados.csv
+│   │       │   ├── 20231212_distritos_descartados.csv
+│   │       │   ├── 20231213_distritos_descartados.csv
+│   │       │   ├── 20231214_distritos_descartados.csv
+│   │       │   ├── 20231215_distritos_descartados.csv
+│   │       │   ├── 20231216_distritos_descartados.csv
+│   │       │   ├── 20231217_distritos_descartados.csv
+│   │       │   ├── 20231218_distritos_descartados.csv
+│   │       │   ├── 20231219_distritos_descartados.csv
+│   │       │   ├── 20231220_distritos_descartados.csv
+│   │       │   ├── 20231221_distritos_descartados.csv
+│   │       │   ├── 20231222_distritos_descartados.csv
+│   │       │   ├── 20231223_distritos_descartados.csv
+│   │       │   ├── 20231224_distritos_descartados.csv
+│   │       │   ├── 20231225_distritos_descartados.csv
+│   │       │   ├── 20231226_distritos_descartados.csv
+│   │       │   ├── 20231227_distritos_descartados.csv
+│   │       │   ├── 20231228_distritos_descartados.csv
+│   │       │   ├── 20231229_distritos_descartados.csv
+│   │       │   ├── 20231230_distritos_descartados.csv
+│   │       │   └── 20231231_distritos_descartados.csv
+│   │       ├── 2024-01
+│   │       │   ├── 20240101_distritos_descartados.csv
+│   │       │   ├── 20240102_distritos_descartados.csv
+│   │       │   ├── 20240103_distritos_descartados.csv
+│   │       │   ├── 20240104_distritos_descartados.csv
+│   │       │   ├── 20240105_distritos_descartados.csv
+│   │       │   ├── 20240106_distritos_descartados.csv
+│   │       │   ├── 20240107_distritos_descartados.csv
+│   │       │   ├── 20240108_distritos_descartados.csv
+│   │       │   ├── 20240109_distritos_descartados.csv
+│   │       │   ├── 20240110_distritos_descartados.csv
+│   │       │   ├── 20240111_distritos_descartados.csv
+│   │       │   ├── 20240112_distritos_descartados.csv
+│   │       │   ├── 20240113_distritos_descartados.csv
+│   │       │   ├── 20240114_distritos_descartados.csv
+│   │       │   ├── 20240115_distritos_descartados.csv
+│   │       │   ├── 20240116_distritos_descartados.csv
+│   │       │   ├── 20240117_distritos_descartados.csv
+│   │       │   ├── 20240118_distritos_descartados.csv
+│   │       │   ├── 20240119_distritos_descartados.csv
+│   │       │   ├── 20240120_distritos_descartados.csv
+│   │       │   ├── 20240121_distritos_descartados.csv
+│   │       │   ├── 20240122_distritos_descartados.csv
+│   │       │   ├── 20240123_distritos_descartados.csv
+│   │       │   ├── 20240124_distritos_descartados.csv
+│   │       │   ├── 20240125_distritos_descartados.csv
+│   │       │   ├── 20240126_distritos_descartados.csv
+│   │       │   ├── 20240127_distritos_descartados.csv
+│   │       │   ├── 20240128_distritos_descartados.csv
+│   │       │   ├── 20240129_distritos_descartados.csv
+│   │       │   ├── 20240130_distritos_descartados.csv
+│   │       │   └── 20240131_distritos_descartados.csv
+│   │       ├── 2024-02
+│   │       │   ├── 20240201_distritos_descartados.csv
+│   │       │   ├── 20240202_distritos_descartados.csv
+│   │       │   ├── 20240203_distritos_descartados.csv
+│   │       │   ├── 20240204_distritos_descartados.csv
+│   │       │   ├── 20240205_distritos_descartados.csv
+│   │       │   ├── 20240206_distritos_descartados.csv
+│   │       │   ├── 20240207_distritos_descartados.csv
+│   │       │   ├── 20240208_distritos_descartados.csv
+│   │       │   ├── 20240209_distritos_descartados.csv
+│   │       │   ├── 20240210_distritos_descartados.csv
+│   │       │   ├── 20240211_distritos_descartados.csv
+│   │       │   ├── 20240212_distritos_descartados.csv
+│   │       │   ├── 20240213_distritos_descartados.csv
+│   │       │   ├── 20240214_distritos_descartados.csv
+│   │       │   ├── 20240215_distritos_descartados.csv
+│   │       │   ├── 20240216_distritos_descartados.csv
+│   │       │   ├── 20240217_distritos_descartados.csv
+│   │       │   ├── 20240218_distritos_descartados.csv
+│   │       │   ├── 20240219_distritos_descartados.csv
+│   │       │   ├── 20240220_distritos_descartados.csv
+│   │       │   ├── 20240221_distritos_descartados.csv
+│   │       │   ├── 20240222_distritos_descartados.csv
+│   │       │   ├── 20240223_distritos_descartados.csv
+│   │       │   ├── 20240224_distritos_descartados.csv
+│   │       │   ├── 20240225_distritos_descartados.csv
+│   │       │   ├── 20240226_distritos_descartados.csv
+│   │       │   ├── 20240227_distritos_descartados.csv
+│   │       │   ├── 20240228_distritos_descartados.csv
+│   │       │   └── 20240229_distritos_descartados.csv
+│   │       └── 2024-03
+│   │           ├── 20240301_distritos_descartados.csv
+│   │           ├── 20240302_distritos_descartados.csv
+│   │           ├── 20240303_distritos_descartados.csv
+│   │           ├── 20240304_distritos_descartados.csv
+│   │           ├── 20240305_distritos_descartados.csv
+│   │           ├── 20240306_distritos_descartados.csv
+│   │           ├── 20240307_distritos_descartados.csv
+│   │           ├── 20240308_distritos_descartados.csv
+│   │           ├── 20240309_distritos_descartados.csv
+│   │           ├── 20240310_distritos_descartados.csv
+│   │           ├── 20240311_distritos_descartados.csv
+│   │           ├── 20240312_distritos_descartados.csv
+│   │           ├── 20240313_distritos_descartados.csv
+│   │           ├── 20240314_distritos_descartados.csv
+│   │           ├── 20240315_distritos_descartados.csv
+│   │           ├── 20240316_distritos_descartados.csv
+│   │           ├── 20240317_distritos_descartados.csv
+│   │           ├── 20240318_distritos_descartados.csv
+│   │           ├── 20240319_distritos_descartados.csv
+│   │           ├── 20240320_distritos_descartados.csv
+│   │           ├── 20240321_distritos_descartados.csv
+│   │           ├── 20240322_distritos_descartados.csv
+│   │           ├── 20240323_distritos_descartados.csv
+│   │           ├── 20240324_distritos_descartados.csv
+│   │           ├── 20240325_distritos_descartados.csv
+│   │           ├── 20240326_distritos_descartados.csv
+│   │           ├── 20240327_distritos_descartados.csv
+│   │           ├── 20240328_distritos_descartados.csv
+│   │           ├── 20240329_distritos_descartados.csv
+│   │           ├── 20240330_distritos_descartados.csv
+│   │           └── 20240331_distritos_descartados.csv
+│   ├── por-distritos
+│   │   ├── pernoctaciones
+│   │   │   ├── ficheros-diarios
+│   │   │   │   ├── 2023-09
+│   │   │   │   │   ├── 20230901_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230902_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230903_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230904_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230905_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230906_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230907_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230908_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230909_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230910_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230911_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230912_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230913_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230914_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230915_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230916_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230917_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230918_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230919_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230920_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230921_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230922_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230923_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230924_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230925_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230926_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230927_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230928_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20230929_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   └── 20230930_Pernoctaciones_distritos.csv.gz
+│   │   │   │   ├── 2023-12
+│   │   │   │   │   ├── 20231201_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231202_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231203_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231204_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231205_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231206_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231207_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231208_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231209_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231210_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231211_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231212_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231213_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231214_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231215_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231216_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231217_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231218_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231219_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231220_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231221_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231222_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231223_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231224_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231225_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231226_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231227_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231228_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231229_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20231230_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   └── 20231231_Pernoctaciones_distritos.csv.gz
+│   │   │   │   ├── 2024-01
+│   │   │   │   │   ├── 20240101_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240102_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240103_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240104_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240105_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240106_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240107_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240108_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240109_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240110_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240111_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240112_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240113_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240114_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240115_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240116_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240117_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240118_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240119_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240120_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240121_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240122_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240123_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240124_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240125_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240126_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240127_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240128_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240129_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240130_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   └── 20240131_Pernoctaciones_distritos.csv.gz
+│   │   │   │   ├── 2024-02
+│   │   │   │   │   ├── 20240201_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240202_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240203_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240204_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240205_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240206_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240207_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240208_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240209_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240210_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240211_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240212_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240213_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240214_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240215_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240216_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240217_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240218_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240219_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240220_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240221_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240222_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240223_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240224_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240225_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240226_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240227_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   ├── 20240228_Pernoctaciones_distritos.csv.gz
+│   │   │   │   │   └── 20240229_Pernoctaciones_distritos.csv.gz
+│   │   │   │   └── 2024-03
+│   │   │   │       ├── 20240301_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240302_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240303_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240304_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240305_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240306_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240307_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240308_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240309_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240310_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240311_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240312_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240313_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240314_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240315_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240316_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240317_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240318_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240319_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240320_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240321_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240322_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240323_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240324_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240325_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240326_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240327_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240328_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240329_Pernoctaciones_distritos.csv.gz
+│   │   │   │       ├── 20240330_Pernoctaciones_distritos.csv.gz
+│   │   │   │       └── 20240331_Pernoctaciones_distritos.csv.gz
+│   │   │   └── meses-completos
+│   │   │       ├── 202309_Pernoctaciones_distritos.tar
+│   │   │       ├── 202312_Pernoctaciones_distritos.tar
+│   │   │       ├── 202401_Pernoctaciones_distritos.tar
+│   │   │       ├── 202402_Pernoctaciones_distritos.tar
+│   │   │       └── 202403_Pernoctaciones_distritos.tar
+│   │   ├── personas
+│   │   │   ├── ficheros-diarios
+│   │   │   │   ├── 2023-09
+│   │   │   │   │   ├── 20230901_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230902_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230903_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230904_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230905_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230906_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230907_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230908_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230909_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230910_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230911_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230912_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230913_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230914_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230915_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230916_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230917_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230918_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230919_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230920_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230921_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230922_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230923_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230924_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230925_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230926_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230927_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230928_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20230929_Personas_dia_distritos.csv.gz
+│   │   │   │   │   └── 20230930_Personas_dia_distritos.csv.gz
+│   │   │   │   ├── 2023-12
+│   │   │   │   │   ├── 20231201_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231202_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231203_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231204_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231205_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231206_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231207_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231208_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231209_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231210_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231211_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231212_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231213_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231214_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231215_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231216_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231217_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231218_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231219_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231220_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231221_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231222_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231223_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231224_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231225_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231226_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231227_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231228_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231229_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20231230_Personas_dia_distritos.csv.gz
+│   │   │   │   │   └── 20231231_Personas_dia_distritos.csv.gz
+│   │   │   │   ├── 2024-01
+│   │   │   │   │   ├── 20240101_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240102_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240103_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240104_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240105_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240106_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240107_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240108_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240109_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240110_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240111_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240112_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240113_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240114_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240115_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240116_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240117_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240118_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240119_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240120_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240121_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240122_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240123_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240124_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240125_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240126_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240127_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240128_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240129_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240130_Personas_dia_distritos.csv.gz
+│   │   │   │   │   └── 20240131_Personas_dia_distritos.csv.gz
+│   │   │   │   ├── 2024-02
+│   │   │   │   │   ├── 20240201_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240202_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240203_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240204_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240205_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240206_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240207_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240208_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240209_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240210_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240211_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240212_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240213_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240214_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240215_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240216_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240217_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240218_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240219_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240220_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240221_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240222_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240223_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240224_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240225_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240226_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240227_Personas_dia_distritos.csv.gz
+│   │   │   │   │   ├── 20240228_Personas_dia_distritos.csv.gz
+│   │   │   │   │   └── 20240229_Personas_dia_distritos.csv.gz
+│   │   │   │   └── 2024-03
+│   │   │   │       ├── 20240301_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240302_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240303_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240304_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240305_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240306_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240307_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240308_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240309_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240310_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240311_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240312_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240313_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240314_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240315_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240316_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240317_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240318_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240319_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240320_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240321_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240322_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240323_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240324_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240325_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240326_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240327_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240328_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240329_Personas_dia_distritos.csv.gz
+│   │   │   │       ├── 20240330_Personas_dia_distritos.csv.gz
+│   │   │   │       └── 20240331_Personas_dia_distritos.csv.gz
+│   │   │   └── meses-completos
+│   │   │       ├── 202309_Personas_dia_distritos.tar
+│   │   │       ├── 202312_Personas_dia_distritos.tar
+│   │   │       ├── 202401_Personas_dia_distritos.tar
+│   │   │       ├── 202402_Personas_dia_distritos.tar
+│   │   │       └── 202403_Personas_dia_distritos.tar
+│   │   └── viajes
+│   │       ├── ficheros-diarios
+│   │       │   ├── 2023-09
+│   │       │   │   ├── 20230901_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230902_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230903_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230904_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230905_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230906_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230907_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230908_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230909_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230910_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230911_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230912_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230913_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230914_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230915_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230916_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230917_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230918_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230919_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230920_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230921_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230922_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230923_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230924_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230925_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230926_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230927_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230928_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20230929_Viajes_distritos.csv.gz
+│   │       │   │   └── 20230930_Viajes_distritos.csv.gz
+│   │       │   ├── 2023-10
+│   │       │   │   ├── 20231007_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231008_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231009_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231010_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231011_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231012_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231013_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231014_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231015_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231016_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231017_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231018_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231019_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231020_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231021_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231022_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231023_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231024_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231025_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231028_Viajes_distritos.csv.gz
+│   │       │   │   └── 20231029_Viajes_distritos.csv.gz
+│   │       │   ├── 2023-12
+│   │       │   │   ├── 20231201_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231202_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231203_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231204_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231205_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231206_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231207_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231208_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231209_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231210_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231211_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231212_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231213_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231214_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231215_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231216_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231217_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231218_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231219_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231220_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231221_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231222_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231223_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231224_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231225_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231226_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231227_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231228_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231229_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20231230_Viajes_distritos.csv.gz
+│   │       │   │   └── 20231231_Viajes_distritos.csv.gz
+│   │       │   ├── 2024-01
+│   │       │   │   ├── 20240101_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240102_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240103_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240104_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240105_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240106_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240107_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240108_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240109_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240110_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240111_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240112_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240113_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240114_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240115_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240116_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240117_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240118_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240119_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240120_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240121_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240122_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240123_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240124_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240125_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240126_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240127_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240128_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240129_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240130_Viajes_distritos.csv.gz
+│   │       │   │   └── 20240131_Viajes_distritos.csv.gz
+│   │       │   ├── 2024-02
+│   │       │   │   ├── 20240201_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240202_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240203_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240204_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240205_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240206_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240207_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240208_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240209_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240210_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240211_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240212_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240213_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240214_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240215_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240216_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240217_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240218_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240219_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240220_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240221_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240222_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240223_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240224_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240225_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240226_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240227_Viajes_distritos.csv.gz
+│   │       │   │   ├── 20240228_Viajes_distritos.csv.gz
+│   │       │   │   └── 20240229_Viajes_distritos.csv.gz
+│   │       │   └── 2024-03
+│   │       │       ├── 20240301_Viajes_distritos.csv.gz
+│   │       │       ├── 20240302_Viajes_distritos.csv.gz
+│   │       │       ├── 20240303_Viajes_distritos.csv.gz
+│   │       │       ├── 20240304_Viajes_distritos.csv.gz
+│   │       │       ├── 20240305_Viajes_distritos.csv.gz
+│   │       │       ├── 20240306_Viajes_distritos.csv.gz
+│   │       │       ├── 20240307_Viajes_distritos.csv.gz
+│   │       │       ├── 20240308_Viajes_distritos.csv.gz
+│   │       │       ├── 20240309_Viajes_distritos.csv.gz
+│   │       │       ├── 20240310_Viajes_distritos.csv.gz
+│   │       │       ├── 20240311_Viajes_distritos.csv.gz
+│   │       │       ├── 20240312_Viajes_distritos.csv.gz
+│   │       │       ├── 20240313_Viajes_distritos.csv.gz
+│   │       │       ├── 20240314_Viajes_distritos.csv.gz
+│   │       │       ├── 20240315_Viajes_distritos.csv.gz
+│   │       │       ├── 20240316_Viajes_distritos.csv.gz
+│   │       │       ├── 20240317_Viajes_distritos.csv.gz
+│   │       │       ├── 20240318_Viajes_distritos.csv.gz
+│   │       │       ├── 20240319_Viajes_distritos.csv.gz
+│   │       │       ├── 20240320_Viajes_distritos.csv.gz
+│   │       │       ├── 20240321_Viajes_distritos.csv.gz
+│   │       │       ├── 20240322_Viajes_distritos.csv.gz
+│   │       │       ├── 20240323_Viajes_distritos.csv.gz
+│   │       │       ├── 20240324_Viajes_distritos.csv.gz
+│   │       │       ├── 20240325_Viajes_distritos.csv.gz
+│   │       │       ├── 20240326_Viajes_distritos.csv.gz
+│   │       │       ├── 20240327_Viajes_distritos.csv.gz
+│   │       │       ├── 20240328_Viajes_distritos.csv.gz
+│   │       │       ├── 20240329_Viajes_distritos.csv.gz
+│   │       │       ├── 20240330_Viajes_distritos.csv.gz
+│   │       │       └── 20240331_Viajes_distritos.csv.gz
+│   │       └── meses-completos
+│   │           ├── 202309_Viajes_distritos.tar
+│   │           ├── 202312_Viajes_distritos.tar
+│   │           ├── 202401_Viajes_distritos.tar
+│   │           ├── 202402_Viajes_distritos.tar
+│   │           └── 202403_Viajes_distritos.tar
+│   ├── por-GAU
+│   │   ├── pernoctaciones
+│   │   │   ├── ficheros-diarios
+│   │   │   │   ├── 2023-09
+│   │   │   │   │   ├── 20230901_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230902_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230903_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230904_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230905_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230906_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230907_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230908_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230909_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230910_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230911_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230912_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230913_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230914_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230915_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230916_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230917_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230918_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230919_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230920_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230921_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230922_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230923_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230924_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230925_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230926_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230927_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230928_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20230929_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   └── 20230930_Pernoctaciones_GAU.csv.gz
+│   │   │   │   ├── 2023-12
+│   │   │   │   │   ├── 20231201_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231202_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231203_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231204_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231205_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231206_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231207_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231208_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231209_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231210_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231211_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231212_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231213_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231214_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231215_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231216_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231217_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231218_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231219_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231220_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231221_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231222_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231223_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231224_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231225_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231226_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231227_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231228_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231229_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20231230_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   └── 20231231_Pernoctaciones_GAU.csv.gz
+│   │   │   │   ├── 2024-01
+│   │   │   │   │   ├── 20240101_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240102_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240103_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240104_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240105_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240106_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240107_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240108_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240109_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240110_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240111_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240112_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240113_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240114_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240115_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240116_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240117_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240118_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240119_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240120_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240121_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240122_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240123_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240124_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240125_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240126_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240127_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240128_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240129_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240130_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   └── 20240131_Pernoctaciones_GAU.csv.gz
+│   │   │   │   ├── 2024-02
+│   │   │   │   │   ├── 20240201_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240202_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240203_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240204_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240205_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240206_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240207_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240208_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240209_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240210_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240211_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240212_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240213_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240214_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240215_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240216_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240217_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240218_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240219_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240220_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240221_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240222_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240223_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240224_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240225_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240226_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240227_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   ├── 20240228_Pernoctaciones_GAU.csv.gz
+│   │   │   │   │   └── 20240229_Pernoctaciones_GAU.csv.gz
+│   │   │   │   └── 2024-03
+│   │   │   │       ├── 20240301_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240302_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240303_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240304_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240305_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240306_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240307_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240308_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240309_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240310_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240311_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240312_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240313_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240314_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240315_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240316_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240317_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240318_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240319_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240320_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240321_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240322_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240323_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240324_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240325_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240326_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240327_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240328_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240329_Pernoctaciones_GAU.csv.gz
+│   │   │   │       ├── 20240330_Pernoctaciones_GAU.csv.gz
+│   │   │   │       └── 20240331_Pernoctaciones_GAU.csv.gz
+│   │   │   └── meses-completos
+│   │   │       ├── 202309_Pernoctaciones_GAU.tar
+│   │   │       ├── 202312_Pernoctaciones_GAU.tar
+│   │   │       ├── 202401_Pernoctaciones_GAU.tar
+│   │   │       ├── 202402_Pernoctaciones_GAU.tar
+│   │   │       └── 202403_Pernoctaciones_GAU.tar
+│   │   ├── personas
+│   │   │   ├── ficheros-diarios
+│   │   │   │   ├── 2023-09
+│   │   │   │   │   ├── 20230901_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230902_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230903_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230904_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230905_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230906_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230907_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230908_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230909_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230910_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230911_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230912_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230913_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230914_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230915_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230916_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230917_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230918_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230919_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230920_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230921_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230922_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230923_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230924_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230925_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230926_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230927_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230928_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20230929_Personas_dia_GAU.csv.gz
+│   │   │   │   │   └── 20230930_Personas_dia_GAU.csv.gz
+│   │   │   │   ├── 2023-12
+│   │   │   │   │   ├── 20231201_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231202_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231203_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231204_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231205_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231206_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231207_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231208_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231209_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231210_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231211_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231212_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231213_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231214_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231215_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231216_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231217_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231218_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231219_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231220_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231221_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231222_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231223_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231224_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231225_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231226_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231227_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231228_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231229_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20231230_Personas_dia_GAU.csv.gz
+│   │   │   │   │   └── 20231231_Personas_dia_GAU.csv.gz
+│   │   │   │   ├── 2024-01
+│   │   │   │   │   ├── 20240101_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240102_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240103_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240104_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240105_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240106_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240107_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240108_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240109_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240110_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240111_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240112_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240113_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240114_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240115_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240116_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240117_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240118_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240119_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240120_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240121_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240122_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240123_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240124_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240125_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240126_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240127_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240128_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240129_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240130_Personas_dia_GAU.csv.gz
+│   │   │   │   │   └── 20240131_Personas_dia_GAU.csv.gz
+│   │   │   │   ├── 2024-02
+│   │   │   │   │   ├── 20240201_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240202_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240203_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240204_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240205_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240206_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240207_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240208_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240209_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240210_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240211_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240212_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240213_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240214_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240215_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240216_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240217_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240218_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240219_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240220_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240221_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240222_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240223_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240224_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240225_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240226_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240227_Personas_dia_GAU.csv.gz
+│   │   │   │   │   ├── 20240228_Personas_dia_GAU.csv.gz
+│   │   │   │   │   └── 20240229_Personas_dia_GAU.csv.gz
+│   │   │   │   └── 2024-03
+│   │   │   │       ├── 20240301_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240302_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240303_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240304_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240305_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240306_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240307_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240308_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240309_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240310_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240311_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240312_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240313_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240314_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240315_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240316_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240317_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240318_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240319_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240320_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240321_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240322_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240323_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240324_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240325_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240326_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240327_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240328_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240329_Personas_dia_GAU.csv.gz
+│   │   │   │       ├── 20240330_Personas_dia_GAU.csv.gz
+│   │   │   │       └── 20240331_Personas_dia_GAU.csv.gz
+│   │   │   └── meses-completos
+│   │   │       ├── 202309_Personas_dia_GAU.tar
+│   │   │       ├── 202312_Personas_dia_GAU.tar
+│   │   │       ├── 202401_Personas_dia_GAU.tar
+│   │   │       ├── 202402_Personas_dia_GAU.tar
+│   │   │       └── 202403_Personas_dia_GAU.tar
+│   │   └── viajes
+│   │       ├── ficheros-diarios
+│   │       │   ├── 2023-09
+│   │       │   │   ├── 20230901_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230902_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230903_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230904_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230905_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230906_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230907_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230908_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230909_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230910_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230911_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230912_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230913_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230914_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230915_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230916_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230917_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230918_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230919_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230920_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230921_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230922_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230923_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230924_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230925_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230926_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230927_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230928_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20230929_Viajes_GAU.csv.gz
+│   │       │   │   └── 20230930_Viajes_GAU.csv.gz
+│   │       │   ├── 2023-12
+│   │       │   │   ├── 20231201_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231202_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231203_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231204_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231205_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231206_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231207_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231208_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231209_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231210_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231211_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231212_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231213_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231214_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231215_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231216_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231217_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231218_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231219_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231220_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231221_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231222_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231223_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231224_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231225_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231226_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231227_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231228_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231229_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20231230_Viajes_GAU.csv.gz
+│   │       │   │   └── 20231231_Viajes_GAU.csv.gz
+│   │       │   ├── 2024-01
+│   │       │   │   ├── 20240101_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240102_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240103_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240104_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240105_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240106_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240107_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240108_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240109_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240110_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240111_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240112_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240113_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240114_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240115_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240116_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240117_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240118_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240119_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240120_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240121_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240122_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240123_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240124_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240125_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240126_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240127_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240128_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240129_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240130_Viajes_GAU.csv.gz
+│   │       │   │   └── 20240131_Viajes_GAU.csv.gz
+│   │       │   ├── 2024-02
+│   │       │   │   ├── 20240201_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240202_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240203_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240204_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240205_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240206_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240207_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240208_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240209_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240210_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240211_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240212_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240213_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240214_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240215_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240216_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240217_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240218_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240219_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240220_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240221_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240222_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240223_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240224_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240225_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240226_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240227_Viajes_GAU.csv.gz
+│   │       │   │   ├── 20240228_Viajes_GAU.csv.gz
+│   │       │   │   └── 20240229_Viajes_GAU.csv.gz
+│   │       │   └── 2024-03
+│   │       │       ├── 20240301_Viajes_GAU.csv.gz
+│   │       │       ├── 20240302_Viajes_GAU.csv.gz
+│   │       │       ├── 20240303_Viajes_GAU.csv.gz
+│   │       │       ├── 20240304_Viajes_GAU.csv.gz
+│   │       │       ├── 20240305_Viajes_GAU.csv.gz
+│   │       │       ├── 20240306_Viajes_GAU.csv.gz
+│   │       │       ├── 20240307_Viajes_GAU.csv.gz
+│   │       │       ├── 20240308_Viajes_GAU.csv.gz
+│   │       │       ├── 20240309_Viajes_GAU.csv.gz
+│   │       │       ├── 20240310_Viajes_GAU.csv.gz
+│   │       │       ├── 20240311_Viajes_GAU.csv.gz
+│   │       │       ├── 20240312_Viajes_GAU.csv.gz
+│   │       │       ├── 20240313_Viajes_GAU.csv.gz
+│   │       │       ├── 20240314_Viajes_GAU.csv.gz
+│   │       │       ├── 20240315_Viajes_GAU.csv.gz
+│   │       │       ├── 20240316_Viajes_GAU.csv.gz
+│   │       │       ├── 20240317_Viajes_GAU.csv.gz
+│   │       │       ├── 20240318_Viajes_GAU.csv.gz
+│   │       │       ├── 20240319_Viajes_GAU.csv.gz
+│   │       │       ├── 20240320_Viajes_GAU.csv.gz
+│   │       │       ├── 20240321_Viajes_GAU.csv.gz
+│   │       │       ├── 20240322_Viajes_GAU.csv.gz
+│   │       │       ├── 20240323_Viajes_GAU.csv.gz
+│   │       │       ├── 20240324_Viajes_GAU.csv.gz
+│   │       │       ├── 20240325_Viajes_GAU.csv.gz
+│   │       │       ├── 20240326_Viajes_GAU.csv.gz
+│   │       │       ├── 20240327_Viajes_GAU.csv.gz
+│   │       │       ├── 20240328_Viajes_GAU.csv.gz
+│   │       │       ├── 20240329_Viajes_GAU.csv.gz
+│   │       │       ├── 20240330_Viajes_GAU.csv.gz
+│   │       │       └── 20240331_Viajes_GAU.csv.gz
+│   │       └── meses-completos
+│   │           ├── 202309_Viajes_GAU.tar
+│   │           ├── 202312_Viajes_GAU.tar
+│   │           ├── 202401_Viajes_GAU.tar
+│   │           ├── 202402_Viajes_GAU.tar
+│   │           └── 202403_Viajes_GAU.tar
+│   └── por-municipios
+│       ├── pernoctaciones
+│       │   ├── ficheros-diarios
+│       │   │   ├── 2023-09
+│       │   │   │   ├── 20230901_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230902_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230903_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230904_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230905_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230906_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230907_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230908_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230909_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230910_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230911_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230912_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230913_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230914_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230915_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230916_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230917_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230918_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230919_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230920_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230921_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230922_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230923_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230924_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230925_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230926_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230927_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230928_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20230929_Pernoctaciones_municipios.csv.gz
+│       │   │   │   └── 20230930_Pernoctaciones_municipios.csv.gz
+│       │   │   ├── 2023-12
+│       │   │   │   ├── 20231201_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231202_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231203_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231204_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231205_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231206_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231207_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231208_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231209_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231210_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231211_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231212_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231213_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231214_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231215_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231216_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231217_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231218_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231219_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231220_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231221_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231222_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231223_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231224_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231225_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231226_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231227_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231228_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231229_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20231230_Pernoctaciones_municipios.csv.gz
+│       │   │   │   └── 20231231_Pernoctaciones_municipios.csv.gz
+│       │   │   ├── 2024-01
+│       │   │   │   ├── 20240101_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240102_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240103_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240104_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240105_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240106_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240107_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240108_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240109_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240110_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240111_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240112_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240113_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240114_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240115_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240116_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240117_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240118_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240119_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240120_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240121_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240122_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240123_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240124_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240125_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240126_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240127_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240128_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240129_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240130_Pernoctaciones_municipios.csv.gz
+│       │   │   │   └── 20240131_Pernoctaciones_municipios.csv.gz
+│       │   │   ├── 2024-02
+│       │   │   │   ├── 20240201_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240202_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240203_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240204_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240205_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240206_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240207_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240208_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240209_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240210_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240211_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240212_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240213_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240214_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240215_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240216_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240217_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240218_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240219_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240220_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240221_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240222_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240223_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240224_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240225_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240226_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240227_Pernoctaciones_municipios.csv.gz
+│       │   │   │   ├── 20240228_Pernoctaciones_municipios.csv.gz
+│       │   │   │   └── 20240229_Pernoctaciones_municipios.csv.gz
+│       │   │   └── 2024-03
+│       │   │       ├── 20240301_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240302_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240303_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240304_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240305_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240306_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240307_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240308_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240309_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240310_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240311_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240312_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240313_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240314_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240315_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240316_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240317_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240318_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240319_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240320_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240321_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240322_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240323_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240324_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240325_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240326_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240327_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240328_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240329_Pernoctaciones_municipios.csv.gz
+│       │   │       ├── 20240330_Pernoctaciones_municipios.csv.gz
+│       │   │       └── 20240331_Pernoctaciones_municipios.csv.gz
+│       │   └── meses-completos
+│       │       ├── 202309_Pernoctaciones_municipios.tar
+│       │       ├── 202312_Pernoctaciones_municipios.tar
+│       │       ├── 202401_Pernoctaciones_municipios.tar
+│       │       ├── 202402_Pernoctaciones_municipios.tar
+│       │       └── 202403_Pernoctaciones_municipios.tar
+│       ├── personas
+│       │   ├── ficheros-diarios
+│       │   │   ├── 2023-09
+│       │   │   │   ├── 20230901_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230902_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230903_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230904_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230905_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230906_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230907_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230908_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230909_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230910_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230911_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230912_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230913_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230914_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230915_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230916_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230917_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230918_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230919_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230920_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230921_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230922_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230923_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230924_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230925_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230926_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230927_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230928_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20230929_Personas_dia_municipios.csv.gz
+│       │   │   │   └── 20230930_Personas_dia_municipios.csv.gz
+│       │   │   ├── 2023-12
+│       │   │   │   ├── 20231201_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231202_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231203_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231204_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231205_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231206_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231207_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231208_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231209_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231210_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231211_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231212_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231213_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231214_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231215_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231216_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231217_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231218_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231219_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231220_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231221_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231222_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231223_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231224_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231225_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231226_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231227_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231228_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231229_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20231230_Personas_dia_municipios.csv.gz
+│       │   │   │   └── 20231231_Personas_dia_municipios.csv.gz
+│       │   │   ├── 2024-01
+│       │   │   │   ├── 20240101_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240102_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240103_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240104_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240105_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240106_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240107_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240108_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240109_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240110_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240111_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240112_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240113_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240114_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240115_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240116_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240117_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240118_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240119_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240120_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240121_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240122_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240123_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240124_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240125_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240126_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240127_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240128_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240129_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240130_Personas_dia_municipios.csv.gz
+│       │   │   │   └── 20240131_Personas_dia_municipios.csv.gz
+│       │   │   ├── 2024-02
+│       │   │   │   ├── 20240201_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240202_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240203_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240204_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240205_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240206_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240207_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240208_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240209_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240210_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240211_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240212_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240213_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240214_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240215_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240216_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240217_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240218_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240219_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240220_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240221_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240222_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240223_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240224_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240225_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240226_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240227_Personas_dia_municipios.csv.gz
+│       │   │   │   ├── 20240228_Personas_dia_municipios.csv.gz
+│       │   │   │   └── 20240229_Personas_dia_municipios.csv.gz
+│       │   │   └── 2024-03
+│       │   │       ├── 20240301_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240302_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240303_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240304_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240305_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240306_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240307_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240308_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240309_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240310_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240311_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240312_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240313_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240314_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240315_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240316_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240317_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240318_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240319_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240320_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240321_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240322_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240323_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240324_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240325_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240326_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240327_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240328_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240329_Personas_dia_municipios.csv.gz
+│       │   │       ├── 20240330_Personas_dia_municipios.csv.gz
+│       │   │       └── 20240331_Personas_dia_municipios.csv.gz
+│       │   └── meses-completos
+│       │       ├── 202309_Personas_dia_municipios.tar
+│       │       ├── 202312_Personas_dia_municipios.tar
+│       │       ├── 202401_Personas_dia_municipios.tar
+│       │       ├── 202402_Personas_dia_municipios.tar
+│       │       └── 202403_Personas_dia_municipios.tar
+│       └── viajes
+│           ├── ficheros-diarios
+│           │   ├── 2023-09
+│           │   │   ├── 20230901_Viajes_municipios.csv.gz
+│           │   │   ├── 20230902_Viajes_municipios.csv.gz
+│           │   │   ├── 20230903_Viajes_municipios.csv.gz
+│           │   │   ├── 20230904_Viajes_municipios.csv.gz
+│           │   │   ├── 20230905_Viajes_municipios.csv.gz
+│           │   │   ├── 20230906_Viajes_municipios.csv.gz
+│           │   │   ├── 20230907_Viajes_municipios.csv.gz
+│           │   │   ├── 20230908_Viajes_municipios.csv.gz
+│           │   │   ├── 20230909_Viajes_municipios.csv.gz
+│           │   │   ├── 20230910_Viajes_municipios.csv.gz
+│           │   │   ├── 20230911_Viajes_municipios.csv.gz
+│           │   │   ├── 20230912_Viajes_municipios.csv.gz
+│           │   │   ├── 20230913_Viajes_municipios.csv.gz
+│           │   │   ├── 20230914_Viajes_municipios.csv.gz
+│           │   │   ├── 20230915_Viajes_municipios.csv.gz
+│           │   │   ├── 20230916_Viajes_municipios.csv.gz
+│           │   │   ├── 20230917_Viajes_municipios.csv.gz
+│           │   │   ├── 20230918_Viajes_municipios.csv.gz
+│           │   │   ├── 20230919_Viajes_municipios.csv.gz
+│           │   │   ├── 20230920_Viajes_municipios.csv.gz
+│           │   │   ├── 20230921_Viajes_municipios.csv.gz
+│           │   │   ├── 20230922_Viajes_municipios.csv.gz
+│           │   │   ├── 20230923_Viajes_municipios.csv.gz
+│           │   │   ├── 20230924_Viajes_municipios.csv.gz
+│           │   │   ├── 20230925_Viajes_municipios.csv.gz
+│           │   │   ├── 20230926_Viajes_municipios.csv.gz
+│           │   │   ├── 20230927_Viajes_municipios.csv.gz
+│           │   │   ├── 20230928_Viajes_municipios.csv.gz
+│           │   │   ├── 20230929_Viajes_municipios.csv.gz
+│           │   │   └── 20230930_Viajes_municipios.csv.gz
+│           │   ├── 2023-12
+│           │   │   ├── 20231201_Viajes_municipios.csv.gz
+│           │   │   ├── 20231202_Viajes_municipios.csv.gz
+│           │   │   ├── 20231203_Viajes_municipios.csv.gz
+│           │   │   ├── 20231204_Viajes_municipios.csv.gz
+│           │   │   ├── 20231205_Viajes_municipios.csv.gz
+│           │   │   ├── 20231206_Viajes_municipios.csv.gz
+│           │   │   ├── 20231207_Viajes_municipios.csv.gz
+│           │   │   ├── 20231208_Viajes_municipios.csv.gz
+│           │   │   ├── 20231209_Viajes_municipios.csv.gz
+│           │   │   ├── 20231210_Viajes_municipios.csv.gz
+│           │   │   ├── 20231211_Viajes_municipios.csv.gz
+│           │   │   ├── 20231212_Viajes_municipios.csv.gz
+│           │   │   ├── 20231213_Viajes_municipios.csv.gz
+│           │   │   ├── 20231214_Viajes_municipios.csv.gz
+│           │   │   ├── 20231215_Viajes_municipios.csv.gz
+│           │   │   ├── 20231216_Viajes_municipios.csv.gz
+│           │   │   ├── 20231217_Viajes_municipios.csv.gz
+│           │   │   ├── 20231218_Viajes_municipios.csv.gz
+│           │   │   ├── 20231219_Viajes_municipios.csv.gz
+│           │   │   ├── 20231220_Viajes_municipios.csv.gz
+│           │   │   ├── 20231221_Viajes_municipios.csv.gz
+│           │   │   ├── 20231222_Viajes_municipios.csv.gz
+│           │   │   ├── 20231223_Viajes_municipios.csv.gz
+│           │   │   ├── 20231224_Viajes_municipios.csv.gz
+│           │   │   ├── 20231225_Viajes_municipios.csv.gz
+│           │   │   ├── 20231226_Viajes_municipios.csv.gz
+│           │   │   ├── 20231227_Viajes_municipios.csv.gz
+│           │   │   ├── 20231228_Viajes_municipios.csv.gz
+│           │   │   ├── 20231229_Viajes_municipios.csv.gz
+│           │   │   ├── 20231230_Viajes_municipios.csv.gz
+│           │   │   └── 20231231_Viajes_municipios.csv.gz
+│           │   ├── 2024-01
+│           │   │   ├── 20240101_Viajes_municipios.csv.gz
+│           │   │   ├── 20240102_Viajes_municipios.csv.gz
+│           │   │   ├── 20240103_Viajes_municipios.csv.gz
+│           │   │   ├── 20240104_Viajes_municipios.csv.gz
+│           │   │   ├── 20240105_Viajes_municipios.csv.gz
+│           │   │   ├── 20240106_Viajes_municipios.csv.gz
+│           │   │   ├── 20240107_Viajes_municipios.csv.gz
+│           │   │   ├── 20240108_Viajes_municipios.csv.gz
+│           │   │   ├── 20240109_Viajes_municipios.csv.gz
+│           │   │   ├── 20240110_Viajes_municipios.csv.gz
+│           │   │   ├── 20240111_Viajes_municipios.csv.gz
+│           │   │   ├── 20240112_Viajes_municipios.csv.gz
+│           │   │   ├── 20240113_Viajes_municipios.csv.gz
+│           │   │   ├── 20240114_Viajes_municipios.csv.gz
+│           │   │   ├── 20240115_Viajes_municipios.csv.gz
+│           │   │   ├── 20240116_Viajes_municipios.csv.gz
+│           │   │   ├── 20240117_Viajes_municipios.csv.gz
+│           │   │   ├── 20240118_Viajes_municipios.csv.gz
+│           │   │   ├── 20240119_Viajes_municipios.csv.gz
+│           │   │   ├── 20240120_Viajes_municipios.csv.gz
+│           │   │   ├── 20240121_Viajes_municipios.csv.gz
+│           │   │   ├── 20240122_Viajes_municipios.csv.gz
+│           │   │   ├── 20240123_Viajes_municipios.csv.gz
+│           │   │   ├── 20240124_Viajes_municipios.csv.gz
+│           │   │   ├── 20240125_Viajes_municipios.csv.gz
+│           │   │   ├── 20240126_Viajes_municipios.csv.gz
+│           │   │   ├── 20240127_Viajes_municipios.csv.gz
+│           │   │   ├── 20240128_Viajes_municipios.csv.gz
+│           │   │   ├── 20240129_Viajes_municipios.csv.gz
+│           │   │   ├── 20240130_Viajes_municipios.csv.gz
+│           │   │   └── 20240131_Viajes_municipios.csv.gz
+│           │   ├── 2024-02
+│           │   │   ├── 20240201_Viajes_municipios.csv.gz
+│           │   │   ├── 20240202_Viajes_municipios.csv.gz
+│           │   │   ├── 20240203_Viajes_municipios.csv.gz
+│           │   │   ├── 20240204_Viajes_municipios.csv.gz
+│           │   │   ├── 20240205_Viajes_municipios.csv.gz
+│           │   │   ├── 20240206_Viajes_municipios.csv.gz
+│           │   │   ├── 20240207_Viajes_municipios.csv.gz
+│           │   │   ├── 20240208_Viajes_municipios.csv.gz
+│           │   │   ├── 20240209_Viajes_municipios.csv.gz
+│           │   │   ├── 20240210_Viajes_municipios.csv.gz
+│           │   │   ├── 20240211_Viajes_municipios.csv.gz
+│           │   │   ├── 20240212_Viajes_municipios.csv.gz
+│           │   │   ├── 20240213_Viajes_municipios.csv.gz
+│           │   │   ├── 20240214_Viajes_municipios.csv.gz
+│           │   │   ├── 20240215_Viajes_municipios.csv.gz
+│           │   │   ├── 20240216_Viajes_municipios.csv.gz
+│           │   │   ├── 20240217_Viajes_municipios.csv.gz
+│           │   │   ├── 20240218_Viajes_municipios.csv.gz
+│           │   │   ├── 20240219_Viajes_municipios.csv.gz
+│           │   │   ├── 20240220_Viajes_municipios.csv.gz
+│           │   │   ├── 20240221_Viajes_municipios.csv.gz
+│           │   │   ├── 20240222_Viajes_municipios.csv.gz
+│           │   │   ├── 20240223_Viajes_municipios.csv.gz
+│           │   │   ├── 20240224_Viajes_municipios.csv.gz
+│           │   │   ├── 20240225_Viajes_municipios.csv.gz
+│           │   │   ├── 20240226_Viajes_municipios.csv.gz
+│           │   │   ├── 20240227_Viajes_municipios.csv.gz
+│           │   │   ├── 20240228_Viajes_municipios.csv.gz
+│           │   │   └── 20240229_Viajes_municipios.csv.gz
+│           │   └── 2024-03
+│           │       ├── 20240301_Viajes_municipios.csv.gz
+│           │       ├── 20240302_Viajes_municipios.csv.gz
+│           │       ├── 20240303_Viajes_municipios.csv.gz
+│           │       ├── 20240304_Viajes_municipios.csv.gz
+│           │       ├── 20240305_Viajes_municipios.csv.gz
+│           │       ├── 20240306_Viajes_municipios.csv.gz
+│           │       ├── 20240307_Viajes_municipios.csv.gz
+│           │       ├── 20240308_Viajes_municipios.csv.gz
+│           │       ├── 20240309_Viajes_municipios.csv.gz
+│           │       ├── 20240310_Viajes_municipios.csv.gz
+│           │       ├── 20240311_Viajes_municipios.csv.gz
+│           │       ├── 20240312_Viajes_municipios.csv.gz
+│           │       ├── 20240313_Viajes_municipios.csv.gz
+│           │       ├── 20240314_Viajes_municipios.csv.gz
+│           │       ├── 20240315_Viajes_municipios.csv.gz
+│           │       ├── 20240316_Viajes_municipios.csv.gz
+│           │       ├── 20240317_Viajes_municipios.csv.gz
+│           │       ├── 20240318_Viajes_municipios.csv.gz
+│           │       ├── 20240319_Viajes_municipios.csv.gz
+│           │       ├── 20240320_Viajes_municipios.csv.gz
+│           │       ├── 20240321_Viajes_municipios.csv.gz
+│           │       ├── 20240322_Viajes_municipios.csv.gz
+│           │       ├── 20240323_Viajes_municipios.csv.gz
+│           │       ├── 20240324_Viajes_municipios.csv.gz
+│           │       ├── 20240325_Viajes_municipios.csv.gz
+│           │       ├── 20240326_Viajes_municipios.csv.gz
+│           │       ├── 20240327_Viajes_municipios.csv.gz
+│           │       ├── 20240328_Viajes_municipios.csv.gz
+│           │       ├── 20240329_Viajes_municipios.csv.gz
+│           │       ├── 20240330_Viajes_municipios.csv.gz
+│           │       └── 20240331_Viajes_municipios.csv.gz
+│           └── meses-completos
+│               ├── 202309_Viajes_municipios.tar
+│               ├── 202312_Viajes_municipios.tar
+│               ├── 202401_Viajes_municipios.tar
+│               ├── 202402_Viajes_municipios.tar
+│               └── 202403_Viajes_municipios.tar
+├── estudios_completos
+│   └── por-distritos
+│       └── movilidad_obligada
+│           └── meses-completos
+│               ├── 202306_Movilidad_obligada_distritos.csv.gz
+│               ├── 202307_Movilidad_obligada_distritos.csv.gz
+│               ├── 202308_Movilidad_obligada_distritos.csv.gz
+│               ├── 202309_Movilidad_obligada_distritos.csv.gz
+│               ├── 202310_Movilidad_obligada_distritos.csv.gz
+│               ├── 202311_Movilidad_obligada_distritos.csv.gz
+│               └── 202312_Movilidad_obligada_distritos.csv.gz
+└── tree_mitma.log
+
+91 directories, 1648 files
