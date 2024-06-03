@@ -1,3 +1,45 @@
+# Data Load Process
+
+This document describes the sequence of events to download data from MITMA and upload it to a GCS bucket as Parquet files.
+
+### Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant PubSub
+    participant SparkJob
+    participant GCS
+
+    User->>PubSub: Send download request
+    PubSub->>SparkJob: Publish download URL
+    SparkJob->>SparkJob: Download data from MITMA
+    SparkJob->>SparkJob: Extract data
+    SparkJob->>SparkJob: Convert CSV to Parquet
+    SparkJob->>GCS: Upload Parquet to GCS bucket
+```
+Steps in Detail
+
+    User Sends Download Request:
+        The user sends a request to download data from MITMA by publishing a message to a Pub/Sub topic.
+
+    Publish Download URL to SparkJob:
+        The Pub/Sub service receives the URL and triggers the Spark job by publishing the message to a subscription that the Spark job listens to.
+
+    Download Data from MITMA:
+        The Spark job downloads the data from the provided MITMA URL.
+
+    Extract Data:
+        If the downloaded data is in a compressed format (e.g., tar file), the Spark job extracts the data.
+
+    Convert CSV to Parquet:
+        The Spark job reads the CSV data and converts it into Parquet format for optimized storage and querying.
+
+    Upload Parquet to GCS Bucket:
+        Finally, the Spark job uploads the Parquet file to the specified GCS bucket.
+
+This sequence ensures a smooth and automated process for handling data from MITMA and storing it efficiently in GCS.
+
 # Initial Steps for Loading Data from MITMA to GCS Bucket
 
 This document provides a step-by-step guide to the initial setup and loading process for transferring data from MITMA to a Google Cloud Storage (GCS) bucket. Follow these steps carefully to ensure a smooth setup and deployment.
