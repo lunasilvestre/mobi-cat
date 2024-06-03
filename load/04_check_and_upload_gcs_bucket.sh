@@ -17,6 +17,11 @@ gsutil cp spark/requirements.txt gs://$BUCKET_NAME/mitma/spark/
 gsutil cp spark/spark_job.py gs://$BUCKET_NAME/mitma/spark/
 gsutil cp spark/init-script.sh gs://$BUCKET_NAME/mitma/spark/
 
+# Grant read access for the 3 files in the bucket
+gsutil acl ch -u AllUsers:R gs://$BUCKET_NAME/mitma/spark/requirements.txt
+gsutil acl ch -u AllUsers:R gs://$BUCKET_NAME/mitma/spark/spark_job.py
+gsutil acl ch -u AllUsers:R gs://$BUCKET_NAME/mitma/spark/init-script.sh
+
 echo "Required files uploaded to gs://$BUCKET_NAME/mitma/spark/"
 
 # End of script
