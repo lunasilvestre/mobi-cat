@@ -4,7 +4,8 @@ gcloud functions deploy $SCHEDULED_FUNCTION_NAME \
 --runtime python39 \
 --trigger-http \
 --set-env-vars GCP_PROJECT_ID=$GCP_PROJECT_ID,CLUSTER_NAME=$CLUSTER_NAME,GCP_REGION=$GCP_REGION,PUBSUB_SUBSCRIPTION_NAME=$PUBSUB_SUBSCRIPTION_NAME,SCHEDULER_JOB_NAME=$SCHEDULER_JOB_NAME \
---allow-unauthenticated
+--allow-unauthenticated \
+--region ${GCP_REGION}
 
 # Wait while function is not available
 while true; do
