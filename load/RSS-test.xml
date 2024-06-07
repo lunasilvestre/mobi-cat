@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>
+      <![CDATA[Opendata Movilidad MITMA]]>
+    </title>
+    <description>
+      <![CDATA[Datos abiertos del estudio de movilidad con big data - MITMA]]>
+    </description>
+    <link>https://www.mitma.es/ministerio/covid-19/evolucion-movilidad-big-data/opendata-movilidad</link>
+    <generator>RSS for Node</generator>
+    <lastBuildDate>Thu, 16 May 2024 09:02:05 GMT</lastBuildDate>
+    <atom:link href="https://opendata-movilidad.mitma.es/RSS.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 May 2024 09:02:04 GMT</pubDate>
+    <copyright>
+      <![CDATA[Ministerio de Transportes, Movilidad y Agenda Urbana]]>
+    </copyright>
+    <language>
+      <![CDATA[es]]>
+    </language>
+    <ttl>60</ttl>
+    <item>
+      <title>
+        <![CDATA[202403_Viajes_distritos.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/viajes/meses-completos/202403_Viajes_distritos.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/viajes/meses-completos/202403_Viajes_distritos.tar</guid>
+      <pubDate>Thu, 16 May 2024 09:00:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202403_Personas_dia_distritos.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/personas/meses-completos/202403_Personas_dia_distritos.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/personas/meses-completos/202403_Personas_dia_distritos.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:58:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202403_Pernoctaciones_distritos.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/pernoctaciones/meses-completos/202403_Pernoctaciones_distritos.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/pernoctaciones/meses-completos/202403_Pernoctaciones_distritos.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:58:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202403_Viajes_municipios.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-municipios/viajes/meses-completos/202403_Viajes_municipios.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-municipios/viajes/meses-completos/202403_Viajes_municipios.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:57:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202403_Personas_dia_municipios.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-municipios/personas/meses-completos/202403_Personas_dia_municipios.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-municipios/personas/meses-completos/202403_Personas_dia_municipios.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:55:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202403_Pernoctaciones_municipios.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-municipios/pernoctaciones/meses-completos/202403_Pernoctaciones_municipios.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-municipios/pernoctaciones/meses-completos/202403_Pernoctaciones_municipios.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:55:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202403_Viajes_GAU.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-GAU/viajes/meses-completos/202403_Viajes_GAU.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-GAU/viajes/meses-completos/202403_Viajes_GAU.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:55:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202403_Personas_dia_GAU.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-GAU/personas/meses-completos/202403_Personas_dia_GAU.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-GAU/personas/meses-completos/202403_Personas_dia_GAU.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:54:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202403_Pernoctaciones_GAU.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-GAU/pernoctaciones/meses-completos/202403_Pernoctaciones_GAU.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-GAU/pernoctaciones/meses-completos/202403_Pernoctaciones_GAU.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:54:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202402_Viajes_distritos.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/viajes/meses-completos/202402_Viajes_distritos.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/viajes/meses-completos/202402_Viajes_distritos.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:52:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202402_Personas_dia_distritos.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/personas/meses-completos/202402_Personas_dia_distritos.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/personas/meses-completos/202402_Personas_dia_distritos.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:50:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202402_Pernoctaciones_distritos.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/pernoctaciones/meses-completos/202402_Pernoctaciones_distritos.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/pernoctaciones/meses-completos/202402_Pernoctaciones_distritos.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:50:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202402_Viajes_municipios.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-municipios/viajes/meses-completos/202402_Viajes_municipios.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-municipios/viajes/meses-completos/202402_Viajes_municipios.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:49:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202402_Personas_dia_municipios.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-municipios/personas/meses-completos/202402_Personas_dia_municipios.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-municipios/personas/meses-completos/202402_Personas_dia_municipios.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:48:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202402_Pernoctaciones_municipios.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-municipios/pernoctaciones/meses-completos/202402_Pernoctaciones_municipios.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-municipios/pernoctaciones/meses-completos/202402_Pernoctaciones_municipios.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:48:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202402_Viajes_GAU.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-GAU/viajes/meses-completos/202402_Viajes_GAU.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-GAU/viajes/meses-completos/202402_Viajes_GAU.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:47:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202402_Personas_dia_GAU.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-GAU/personas/meses-completos/202402_Personas_dia_GAU.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-GAU/personas/meses-completos/202402_Personas_dia_GAU.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:46:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202402_Pernoctaciones_GAU.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-GAU/pernoctaciones/meses-completos/202402_Pernoctaciones_GAU.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-GAU/pernoctaciones/meses-completos/202402_Pernoctaciones_GAU.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:46:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202401_Viajes_distritos.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/viajes/meses-completos/202401_Viajes_distritos.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/viajes/meses-completos/202401_Viajes_distritos.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:44:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>
+        <![CDATA[202401_Personas_dia_distritos.tar]]>
+      </title>
+      <link>https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/personas/meses-completos/202401_Personas_dia_distritos.tar</link>
+      <guid isPermaLink="true">https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/personas/meses-completos/202401_Personas_dia_distritos.tar</guid>
+      <pubDate>Thu, 16 May 2024 08:41:52 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

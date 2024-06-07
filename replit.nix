@@ -1,20 +1,20 @@
 {pkgs}: {
   deps = [
     pkgs.google-cloud-sdk-gce
-    pkgs.python39
-    pkgs.python39Packages.google-cloud-pubsub
-    pkgs.terraform
-    pkgs.docker
+    pkgs.python310Full                   # Updated to Python 3.10 Full
+    pkgs.python310Packages.google-cloud-pubsub
     pkgs.libxml2  # For XML parsing
+    # pkgs.terraform
+    # pkgs.docker
   ];
 
   # Set up shell hooks to ensure docker can be used without sudo
-  shellHook = ''
-    if ! [ -e /var/run/docker.sock ]; then
-      sudo dockerd &
-      sleep 5
-    fi
-    sudo usermod -aG docker $USER
-    echo "All dependencies installed successfully."
-  '';
+  # shellHook = ''
+  #   if ! [ -e /var/run/docker.sock ]; then
+  #     sudo dockerd &
+  #     sleep 5
+  #   fi
+  #   sudo usermod -aG docker $USER
+  #   echo "All dependencies installed successfully."
+  # '';
 }

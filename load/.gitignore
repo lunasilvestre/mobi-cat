@@ -4,3 +4,4 @@ service-account-key.json
 .terraform*
 .terraform/*
 *.log
+job_id.txt
