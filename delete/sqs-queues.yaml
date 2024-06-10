@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  DLQQueue:
+    Type: "AWS::SQS::Queue"
+    Properties:
+      QueueName: "mitma-dlq"
+      VisibilityTimeout: 600
+      MessageRetentionPeriod: 3600
+
+  MainQueue:
+    Type: "AWS::SQS::Queue"
+    Properties:
+      QueueName: "mitma-queue"
+      VisibilityTimeout: 600
+      MessageRetentionPeriod: 3600
+      RedrivePolicy:
+        deadLetterTargetArn: !GetAtt DLQQueue.Arn
+        maxReceiveCount: 5
+
+Outputs:
+  MainQueueURL:
+    Description: "URL of the created Main SQS queue"
+    Value: !Ref MainQueue
+  DLQQueueURL:
+    Description: "URL of the created DLQ SQS queue"
+    Value: !Ref DLQQueue

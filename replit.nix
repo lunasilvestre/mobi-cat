@@ -1,5 +1,8 @@
 {pkgs}: {
   deps = [
+    pkgs.tree
+    pkgs.awscli2
+    pkgs.zip
     pkgs.google-cloud-sdk-gce
     pkgs.python310Full                   # Updated to Python 3.10 Full
     pkgs.python310Packages.google-cloud-pubsub

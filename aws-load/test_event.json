@@ -1,0 +1,7 @@
+test_event = {
+    "Records": [
+        {
+            "body": "https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/viajes/meses-completos/202208_Viajes_distritos.tar"
+        }
+    ]
+}
