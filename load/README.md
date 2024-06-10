@@ -55,7 +55,6 @@ sequenceDiagram
     deactivate SQS
     Lambda->>DLQ: Move Message to DLQ
     DLQ-->>Lambda: Message Stored
-    deactivate DLQ
 ```
 
 ## Setup Instructions
