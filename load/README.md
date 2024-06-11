@@ -1,140 +1,106 @@
-# Data Load Process
+# Mobi-Cat AWS Lambda S3 Load System
 
-This document describes the sequence of events to download data from MITMA and upload it to a GCS bucket as Parquet files.
+## Overview
 
-### Sequence Diagram
+This project sets up an AWS Lambda function to process files from a URL, downloads them, and uploads them to an S3 bucket. The system is designed to be scalable, efficient, and cost-effective by using AWS services like S3, SQS, and Lambda.
+
+### Source of URLs and Files
+- The file URLs come from the RSS feed available [here](https://movilidad-opendata.mitma.es/RSS.xml).
+- The files themselves are part of a mobility study project located at [Opendata Movilidad](https://www.transportes.gob.es/ministerio/proyectos-singulares/estudios-de-movilidad-con-big-data/opendata-movilidad).
+
+## Architecture
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffcc00', 'edgeLabelBackground':'#ffffff', 'primaryTextColor': '#000000' }}}%%
+graph TD
+    A[S3 Bucket: mobi-cat] --> E[Lambda Function: mitma-s3-load]
+    B[SQS Queue: mitma-queue] --> E[Lambda Function: mitma-s3-load]
+    C[DLQ: mitma-dlq] --> B[SQS Queue: mitma-queue]
+    F(Lambda Failure) --> C[DLQ: mitma-dlq]
+    F -->|Retries| E[Lambda Function: mitma-s3-load]
+    E -->|Uploads To| A[S3 Bucket: mobi-cat]
+```
+
+### Components:
+- **Lambda Function**: Processes each URL, downloads the file, and uploads it to S3.
+- **SQS Queue**: Handles message queuing for URLs to be processed by the Lambda function.
+- **DLQ (Dead-Letter Queue)**: Captures messages that failed processing after a number of attempts.
+- **S3 Bucket**: Stores the downloaded files.
+
+## Sequence Diagram
+Here is the sequence diagram that illustrates the download and upload flow:
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffcc00', 'edgeLabelBackground':'#ffffff', 'primaryTextColor': '#000000' }}}%%
 sequenceDiagram
-    participant User
-    participant PubSub
-    participant SparkJob
-    participant GCS
+    autonumber
+    participant SQS as SQS Queue (mitma-queue)
+    participant Lambda as Lambda Function (mitma-s3-load)
+    participant S3 as S3 Bucket (mobi-cat)
+    participant DLQ as DLQ (mitma-dlq)
+    activate SQS
+    SQS->>Lambda: Send Message (file URL)
+    activate Lambda
+    Lambda->>SQS: Receive Message
+    SQS-->>Lambda: Response (URL to be processed)
+    Lambda->>URL: Download File
+    URL-->>Lambda: File Content
+    Lambda->>S3: Upload File
+    S3-->>Lambda: Upload Confirmation
+    Lambda->>SQS: Delete Message
+    deactivate Lambda
+    SQS-->>Lambda: Delete Confirmation
 
-    User->>PubSub: Send download request
-    PubSub->>SparkJob: Publish download URL
-    SparkJob->>SparkJob: Download data from MITMA
-    SparkJob->>SparkJob: Extract data
-    SparkJob->>SparkJob: Convert CSV to Parquet
-    SparkJob->>GCS: Upload Parquet to GCS bucket
-```
-Steps in Detail
-
-    User Sends Download Request:
-        The user sends a request to download data from MITMA by publishing a message to a Pub/Sub topic.
-
-    Publish Download URL to SparkJob:
-        The Pub/Sub service receives the URL and triggers the Spark job by publishing the message to a subscription that the Spark job listens to.
-
-    Download Data from MITMA:
-        The Spark job downloads the data from the provided MITMA URL.
-
-    Extract Data:
-        If the downloaded data is in a compressed format (e.g., tar file), the Spark job extracts the data.
-
-    Convert CSV to Parquet:
-        The Spark job reads the CSV data and converts it into Parquet format for optimized storage and querying.
-
-    Upload Parquet to GCS Bucket:
-        Finally, the Spark job uploads the Parquet file to the specified GCS bucket.
-
-This sequence ensures a smooth and automated process for handling data from MITMA and storing it efficiently in GCS.
-
-# Initial Steps for Loading Data from MITMA to GCS Bucket
-
-This document provides a step-by-step guide to the initial setup and loading process for transferring data from MITMA to a Google Cloud Storage (GCS) bucket. Follow these steps carefully to ensure a smooth setup and deployment.
-
-## Steps Overview
-
-1. **Initializing the Environment** (`00_setup.sh`)
-2. **Installing Dependencies** (`01_install_dependencies.sh`)
-3. **Creating Service Account** (`02_create_service_account.sh`)
-4. **Loading Google Credentials** (`03_load_google_creds.sh`)
-5. **Checking GCS Bucket** (`04_check_gcs_bucket.sh`)
-6. **Testing Terraform Deployment** (`test/tf_test.go`)
-7. **Deploying Terraform** (`05_deploy_tf.sh`)
-
-## Step-by-Step Instructions
-
-### 1. Initializing the Environment - `00_setup.sh`
-
-This script sets up the necessary environment variables. You need to source this script instead of running it directly.
-
-**Run:**
-```sh
-source ./00_setup.sh
+    Note over Lambda,DLQ: In case of failure
+    deactivate SQS
+    Lambda->>DLQ: Move Message to DLQ
+    DLQ-->>Lambda: Message Stored
 ```
 
-### 2. Installing Dependencies - `01_install_dependencies.sh`
+## Setup Instructions
 
-Run this script to install all necessary dependencies, including terraform, docker, go, and other required packages.
+### Prerequisites
+- AWS CLI installed and configured
+- Terraform installed
+- Python 3.8+ installed
+- pip installed
 
-**Run**:
-```sh
-./01_install_dependencies.sh
+### Creating the Environment
+1. Clone the Repository
+```shell
+git clone https://github.com/lunasilvestre/mobi-cat.git
+cd mobi-cat/aws-load
 ```
-
-### 3. Creating Service Account - `02_create_service_account.sh`
-
-This script creates a Google Service Account and must be run in a non-managed IDE (not Replit) because it requires online authentication to Google, and these environments often do not open ports that are easily accessible.
-
-**Run**:
-```sh
-source ./02_create_service_account.sh
+2. Install Python Dependencies
+```shell
+pip install -r requirements.txt
 ```
-
-### 4. Loading Google Credentials - `03_load_google_creds.sh`
-
-Source this script to load the necessary Google credentials for your environment.
-
-**Run**:
-```sh
-source ./03_load_google_creds.sh
+3. Configure Environment Variables
+Create a copy of `.env.sample` and rename it to `.env`. Populate it with your AWS environment variables.
+```shell
+AWS_REGION=eu-south-2
+LAMBDA_FUNCTION_NAME=mitma-s3-load
+MAIN_QUEUE_NAME=mitma-queue
+DLQ_NAME=mitma-dlq
+S3_BUCKET_NAME=mobi-cat
+S3_KEY_PREFIX=mitma/raw
 ```
-
-### 5. Checking GCS Bucket - `04_check_gcs_bucket.sh`
-
-This script checks the existence and accessibility of the GCS bucket. It can be run as a normal script, and it might be a good idea to move it to the test/ directory for better organization.
-
-**Run**:
-```sh
-./04_check_gcs_bucket.sh
+4. Package Lambda Function
+```shell
+./package.sh
 ```
-
-### 6. Testing Terraform Deployment - `test/tf_test.go`
-
-Before running the final deployment, it is crucial to test it using Go to ensure that your Terraform configuration is correct.
-
-Steps to Set Up and Initialize the Go Project:
-
-i. Navigate to the Test Directory:
-  ```sh
-  cd ./load/test
-  ```
-ii. Initialize a Go Module:
-  ```sh
-  go mod init mobi-cat
-  ```
-iii. Add Dependencies:
-  ```sh
-  go get github.com/gruntwork-io/terratest/modules/terraform
-  go get github.com/stretchr/testify
-  ```
-iv. Run the Tests:
-  ```sh
-  go test -v
-  ```
-
-### 7. Deploying Terraform - `05_deploy_tf.sh`
-
-After successfully testing with Go, you can run the final deployment.
-
-Note: Ensure that all previous setup and test steps have been followed correctly.
-
-**Run**:
-```sh
-./05_deploy_tf.sh
+5. Deploy with Terraform
+```shell
+./deploy.sh
 ```
-Remaining Steps
-
-Further steps are under development and documentation will be added shortly.
+6. Run Tests
+```shell
+python -m unittest test_lambda_function.py
+```
+## Operational Guidelines
+### Monitoring
+- Use AWS CloudWatch logs to monitor the Lambda function's execution information, errors, and debugging.
+- SQS queues should be monitored for any stuck messages, indicating issues in message processing.
+### Scaling
+- The Lambda function scales automatically based on the number of messages in the SQS queue.
+- Ensure the Lambda concurrency limits are configured as per your application's throughput requirements.
