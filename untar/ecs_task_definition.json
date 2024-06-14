@@ -1,0 +1,34 @@
+{
+  "family": "process-tar-file",
+  "containerDefinitions": [
+    {
+      "name": "process-tar-container",
+      "image": "your-account-id.dkr.ecr.your-region.amazonaws.com/process-tar-file:latest",
+      "essential": true,
+      "memory": 1024,
+      "cpu": 512,
+      "environment": [
+        {
+          "name": "SQS_QUEUE_URL",
+          "value": "your-sqs-queue-url"
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/process-tar-file",
+          "awslogs-region": "your-region",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    }
+  ],
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": [
+    "FARGATE"
+  ],
+  "cpu": "512",
+  "memory": "1024",
+  "executionRoleArn": "your-ecs-task-execution-role",
+  "taskRoleArn": "your-ecs-task-role"
+}
