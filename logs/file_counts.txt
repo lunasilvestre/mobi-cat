@@ -1,0 +1,36 @@
+Daily Counts per Month:
+202201: 311 files
+202202: 281 files
+202203: 311 files
+202204: 301 files
+202205: 310 files
+202206: 301 files
+202207: 311 files
+202208: 311 files
+202209: 301 files
+202210: 311 files
+202211: 301 files
+202212: 311 files
+202301: 311 files
+202302: 281 files
+202303: 311 files
+202304: 301 files
+202305: 311 files
+202306: 300 files
+202307: 311 files
+202308: 311 files
+202309: 301 files
+202310: 271 files
+202311: 271 files
+202312: 311 files
+202401: 310 files
+202402: 290 files
+202403: 310 files
+nombre: 3 files
+poblac: 4 files
+relaci: 1 files
+
+Monthly Counts per Year:
+2022: 108 files
+2023: 108 files
+2024: 27 files

@@ -1,0 +1,3 @@
+create view viajes_distritos as 
+select *
+from ficheros_diarios_74d2c4f431342d28a33fa3a79d36a123

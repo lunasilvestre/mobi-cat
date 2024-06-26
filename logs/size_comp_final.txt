@@ -1,0 +1,945 @@
+202403_Viajes_distritos
+Monthly Size (tar): 5804953600 bytes
+Total Daily Size (csv.gz): 5804922844 bytes
+Difference: 30756 bytes
+
+202403_Personas_dia
+Monthly Size (tar): 13240320 bytes
+Total Daily Size (csv.gz): 54615579 bytes
+Difference: -41375259 bytes
+
+202403_Pernoctaciones_distritos
+Monthly Size (tar): 87080960 bytes
+Total Daily Size (csv.gz): 87054161 bytes
+Difference: 26799 bytes
+
+202403_Viajes_municipios
+Monthly Size (tar): 4142827520 bytes
+Total Daily Size (csv.gz): 4142803997 bytes
+Difference: 23523 bytes
+
+202403_Pernoctaciones_municipios
+Monthly Size (tar): 68136960 bytes
+Total Daily Size (csv.gz): 68110790 bytes
+Difference: 26170 bytes
+
+202403_Viajes_GAU
+Monthly Size (tar): 2698352640 bytes
+Total Daily Size (csv.gz): 2698321024 bytes
+Difference: 31616 bytes
+
+202403_Pernoctaciones_GAU
+Monthly Size (tar): 57497600 bytes
+Total Daily Size (csv.gz): 57472216 bytes
+Difference: 25384 bytes
+
+202402_Viajes_distritos
+Monthly Size (tar): 5470914560 bytes
+Total Daily Size (csv.gz): 5470881711 bytes
+Difference: 32849 bytes
+
+202402_Personas_dia
+Monthly Size (tar): 12206080 bytes
+Total Daily Size (csv.gz): 50482808 bytes
+Difference: -38276728 bytes
+
+202402_Pernoctaciones_distritos
+Monthly Size (tar): 68311040 bytes
+Total Daily Size (csv.gz): 68281598 bytes
+Difference: 29442 bytes
+
+202402_Viajes_municipios
+Monthly Size (tar): 3822960640 bytes
+Total Daily Size (csv.gz): 3822932129 bytes
+Difference: 28511 bytes
+
+202402_Pernoctaciones_municipios
+Monthly Size (tar): 52459520 bytes
+Total Daily Size (csv.gz): 52433031 bytes
+Difference: 26489 bytes
+
+202402_Viajes_GAU
+Monthly Size (tar): 2429358080 bytes
+Total Daily Size (csv.gz): 2429334635 bytes
+Difference: 23445 bytes
+
+202402_Pernoctaciones_GAU
+Monthly Size (tar): 43417600 bytes
+Total Daily Size (csv.gz): 43393337 bytes
+Difference: 24263 bytes
+
+202401_Viajes_distritos
+Monthly Size (tar): 5675960320 bytes
+Total Daily Size (csv.gz): 5675928790 bytes
+Difference: 31530 bytes
+
+202401_Personas_dia
+Monthly Size (tar): 13076480 bytes
+Total Daily Size (csv.gz): 54094051 bytes
+Difference: -41017571 bytes
+
+202401_Pernoctaciones_distritos
+Monthly Size (tar): 74516480 bytes
+Total Daily Size (csv.gz): 74483589 bytes
+Difference: 32891 bytes
+
+202401_Viajes_municipios
+Monthly Size (tar): 3973058560 bytes
+Total Daily Size (csv.gz): 3973033360 bytes
+Difference: 25200 bytes
+
+202401_Pernoctaciones_municipios
+Monthly Size (tar): 57313280 bytes
+Total Daily Size (csv.gz): 57279441 bytes
+Difference: 33839 bytes
+
+202401_Viajes_GAU
+Monthly Size (tar): 2521978880 bytes
+Total Daily Size (csv.gz): 2521945264 bytes
+Difference: 33616 bytes
+
+202401_Pernoctaciones_GAU
+Monthly Size (tar): 47400960 bytes
+Total Daily Size (csv.gz): 47371164 bytes
+Difference: 29796 bytes
+
+202309_Viajes_distritos
+Monthly Size (tar): 5213491200 bytes
+Total Daily Size (csv.gz): 5213457573 bytes
+Difference: 33627 bytes
+
+202309_Personas_dia
+Monthly Size (tar): 12902400 bytes
+Total Daily Size (csv.gz): 53192372 bytes
+Difference: -40289972 bytes
+
+202309_Pernoctaciones_distritos
+Monthly Size (tar): 80558080 bytes
+Total Daily Size (csv.gz): 80524666 bytes
+Difference: 33414 bytes
+
+202309_Viajes_municipios
+Monthly Size (tar): 3758807040 bytes
+Total Daily Size (csv.gz): 3758773837 bytes
+Difference: 33203 bytes
+
+202309_Pernoctaciones_municipios
+Monthly Size (tar): 64204800 bytes
+Total Daily Size (csv.gz): 64171584 bytes
+Difference: 33216 bytes
+
+202309_Viajes_GAU
+Monthly Size (tar): 2461870080 bytes
+Total Daily Size (csv.gz): 2461842922 bytes
+Difference: 27158 bytes
+
+202309_Pernoctaciones_GAU
+Monthly Size (tar): 55173120 bytes
+Total Daily Size (csv.gz): 55144449 bytes
+Difference: 28671 bytes
+
+202312_Viajes_distritos
+Monthly Size (tar): 5418373120 bytes
+Total Daily Size (csv.gz): 5418344897 bytes
+Difference: 28223 bytes
+
+202312_Personas_dia
+Monthly Size (tar): 13240320 bytes
+Total Daily Size (csv.gz): 54674115 bytes
+Difference: -41433795 bytes
+
+202312_Pernoctaciones_distritos
+Monthly Size (tar): 87746560 bytes
+Total Daily Size (csv.gz): 87717509 bytes
+Difference: 29051 bytes
+
+202312_Viajes_municipios
+Monthly Size (tar): 3839160320 bytes
+Total Daily Size (csv.gz): 3839131288 bytes
+Difference: 29032 bytes
+
+202312_Pernoctaciones_municipios
+Monthly Size (tar): 67215360 bytes
+Total Daily Size (csv.gz): 67185863 bytes
+Difference: 29497 bytes
+
+202312_Viajes_GAU
+Monthly Size (tar): 2481121280 bytes
+Total Daily Size (csv.gz): 2481091318 bytes
+Difference: 29962 bytes
+
+202312_Pernoctaciones_GAU
+Monthly Size (tar): 55818240 bytes
+Total Daily Size (csv.gz): 55786898 bytes
+Difference: 31342 bytes
+
+202310_Viajes_distritos
+Monthly Size (tar): 4675399680 bytes
+Total Daily Size (csv.gz): 4675368595 bytes
+Difference: 31085 bytes
+
+202310_Personas_dia
+Monthly Size (tar): 11499520 bytes
+Total Daily Size (csv.gz): 47451684 bytes
+Difference: -35952164 bytes
+
+202310_Pernoctaciones_distritos
+Monthly Size (tar): 68720640 bytes
+Total Daily Size (csv.gz): 68698709 bytes
+Difference: 21931 bytes
+
+202310_Viajes_municipios
+Monthly Size (tar): 3340185600 bytes
+Total Daily Size (csv.gz): 3340156352 bytes
+Difference: 29248 bytes
+
+202310_Pernoctaciones_municipios
+Monthly Size (tar): 53585920 bytes
+Total Daily Size (csv.gz): 53554596 bytes
+Difference: 31324 bytes
+
+202310_Viajes_GAU
+Monthly Size (tar): 2164234240 bytes
+Total Daily Size (csv.gz): 2164205748 bytes
+Difference: 28492 bytes
+
+202310_Pernoctaciones_GAU
+Monthly Size (tar): 45250560 bytes
+Total Daily Size (csv.gz): 45225805 bytes
+Difference: 24755 bytes
+
+202311_Viajes_distritos
+Monthly Size (tar): 4945797120 bytes
+Total Daily Size (csv.gz): 4945772142 bytes
+Difference: 24978 bytes
+
+202311_Personas_dia
+Monthly Size (tar): 11345920 bytes
+Total Daily Size (csv.gz): 46958556 bytes
+Difference: -35612636 bytes
+
+202311_Pernoctaciones_distritos
+Monthly Size (tar): 66088960 bytes
+Total Daily Size (csv.gz): 66063116 bytes
+Difference: 25844 bytes
+
+202311_Viajes_municipios
+Monthly Size (tar): 3452375040 bytes
+Total Daily Size (csv.gz): 3452350136 bytes
+Difference: 24904 bytes
+
+202311_Pernoctaciones_municipios
+Monthly Size (tar): 50247680 bytes
+Total Daily Size (csv.gz): 50220036 bytes
+Difference: 27644 bytes
+
+202311_Viajes_GAU
+Monthly Size (tar): 2193520640 bytes
+Total Daily Size (csv.gz): 2193494722 bytes
+Difference: 25918 bytes
+
+202311_Pernoctaciones_GAU
+Monthly Size (tar): 41492480 bytes
+Total Daily Size (csv.gz): 41467669 bytes
+Difference: 24811 bytes
+
+202308_Pernoctaciones_distritos
+Monthly Size (tar): 123412480 bytes
+Total Daily Size (csv.gz): 123385897 bytes
+Difference: 26583 bytes
+
+202308_Personas_dia
+Monthly Size (tar): 13690880 bytes
+Total Daily Size (csv.gz): 56173605 bytes
+Difference: -42482725 bytes
+
+202308_Viajes_distritos
+Monthly Size (tar): 5514659840 bytes
+Total Daily Size (csv.gz): 5514625175 bytes
+Difference: 34665 bytes
+
+202308_Pernoctaciones_municipios
+Monthly Size (tar): 101816320 bytes
+Total Daily Size (csv.gz): 101790704 bytes
+Difference: 25616 bytes
+
+202308_Viajes_municipios
+Monthly Size (tar): 4213667840 bytes
+Total Daily Size (csv.gz): 4213635216 bytes
+Difference: 32624 bytes
+
+202308_Pernoctaciones_GAU
+Monthly Size (tar): 90173440 bytes
+Total Daily Size (csv.gz): 90142200 bytes
+Difference: 31240 bytes
+
+202308_Viajes_GAU
+Monthly Size (tar): 2932551680 bytes
+Total Daily Size (csv.gz): 2932522165 bytes
+Difference: 29515 bytes
+
+202307_Pernoctaciones_distritos
+Monthly Size (tar): 101171200 bytes
+Total Daily Size (csv.gz): 101147305 bytes
+Difference: 23895 bytes
+
+202307_Personas_dia
+Monthly Size (tar): 13557760 bytes
+Total Daily Size (csv.gz): 55763821 bytes
+Difference: -42206061 bytes
+
+202307_Viajes_distritos
+Monthly Size (tar): 5765181440 bytes
+Total Daily Size (csv.gz): 5765154613 bytes
+Difference: 26827 bytes
+
+202307_Pernoctaciones_municipios
+Monthly Size (tar): 82124800 bytes
+Total Daily Size (csv.gz): 82097796 bytes
+Difference: 27004 bytes
+
+202307_Viajes_municipios
+Monthly Size (tar): 4275517440 bytes
+Total Daily Size (csv.gz): 4275487013 bytes
+Difference: 30427 bytes
+
+202307_Pernoctaciones_GAU
+Monthly Size (tar): 71106560 bytes
+Total Daily Size (csv.gz): 71074374 bytes
+Difference: 32186 bytes
+
+202307_Viajes_GAU
+Monthly Size (tar): 2862714880 bytes
+Total Daily Size (csv.gz): 2862683605 bytes
+Difference: 31275 bytes
+
+202306_Pernoctaciones_distritos
+Monthly Size (tar): 77752320 bytes
+Total Daily Size (csv.gz): 77726795 bytes
+Difference: 25525 bytes
+
+202306_Personas_dia
+Monthly Size (tar): 12431360 bytes
+Total Daily Size (csv.gz): 52624623 bytes
+Difference: -40193263 bytes
+
+202306_Viajes_distritos
+Monthly Size (tar): 5672755200 bytes
+Total Daily Size (csv.gz): 5672730870 bytes
+Difference: 24330 bytes
+
+202306_Pernoctaciones_municipios
+Monthly Size (tar): 61736960 bytes
+Total Daily Size (csv.gz): 61709513 bytes
+Difference: 27447 bytes
+
+202306_Viajes_municipios
+Monthly Size (tar): 4042158080 bytes
+Total Daily Size (csv.gz): 4042127974 bytes
+Difference: 30106 bytes
+
+202306_Pernoctaciones_GAU
+Monthly Size (tar): 52377600 bytes
+Total Daily Size (csv.gz): 52348662 bytes
+Difference: 28938 bytes
+
+202306_Viajes_GAU
+Monthly Size (tar): 2609172480 bytes
+Total Daily Size (csv.gz): 2609146119 bytes
+Difference: 26361 bytes
+
+202305_Pernoctaciones_distritos
+Monthly Size (tar): 70778880 bytes
+Total Daily Size (csv.gz): 70752549 bytes
+Difference: 26331 bytes
+
+202305_Personas_dia
+Monthly Size (tar): 13158400 bytes
+Total Daily Size (csv.gz): 54349446 bytes
+Difference: -41191046 bytes
+
+202305_Viajes_distritos
+Monthly Size (tar): 5808609280 bytes
+Total Daily Size (csv.gz): 5808584761 bytes
+Difference: 24519 bytes
+
+202305_Pernoctaciones_municipios
+Monthly Size (tar): 56043520 bytes
+Total Daily Size (csv.gz): 56011318 bytes
+Difference: 32202 bytes
+
+202305_Viajes_municipios
+Monthly Size (tar): 4069478400 bytes
+Total Daily Size (csv.gz): 4069445505 bytes
+Difference: 32895 bytes
+
+202305_Pernoctaciones_GAU
+Monthly Size (tar): 47523840 bytes
+Total Daily Size (csv.gz): 47498520 bytes
+Difference: 25320 bytes
+
+202305_Viajes_GAU
+Monthly Size (tar): 2599045120 bytes
+Total Daily Size (csv.gz): 2599012419 bytes
+Difference: 32701 bytes
+
+202201_Pernoctaciones_distritos
+Monthly Size (tar): 57292800 bytes
+Total Daily Size (csv.gz): 57260432 bytes
+Difference: 32368 bytes
+
+202201_Personas_dia
+Monthly Size (tar): 13086720 bytes
+Total Daily Size (csv.gz): 54141387 bytes
+Difference: -41054667 bytes
+
+202201_Viajes_distritos
+Monthly Size (tar): 4940789760 bytes
+Total Daily Size (csv.gz): 4940757458 bytes
+Difference: 32302 bytes
+
+202201_Pernoctaciones_municipios
+Monthly Size (tar): 45486080 bytes
+Total Daily Size (csv.gz): 45457255 bytes
+Difference: 28825 bytes
+
+202201_Viajes_municipios
+Monthly Size (tar): 3522621440 bytes
+Total Daily Size (csv.gz): 3522589259 bytes
+Difference: 32181 bytes
+
+202201_Pernoctaciones_GAU
+Monthly Size (tar): 38717440 bytes
+Total Daily Size (csv.gz): 38687672 bytes
+Difference: 29768 bytes
+
+202201_Viajes_GAU
+Monthly Size (tar): 2270945280 bytes
+Total Daily Size (csv.gz): 2270912301 bytes
+Difference: 32979 bytes
+
+202209_Pernoctaciones_distritos
+Monthly Size (tar): 84029440 bytes
+Total Daily Size (csv.gz): 84001562 bytes
+Difference: 27878 bytes
+
+202209_Personas_dia
+Monthly Size (tar): 12902400 bytes
+Total Daily Size (csv.gz): 53204233 bytes
+Difference: -40301833 bytes
+
+202209_Viajes_distritos
+Monthly Size (tar): 5321185280 bytes
+Total Daily Size (csv.gz): 5321155194 bytes
+Difference: 30086 bytes
+
+202209_Pernoctaciones_municipios
+Monthly Size (tar): 66795520 bytes
+Total Daily Size (csv.gz): 66770033 bytes
+Difference: 25487 bytes
+
+202209_Viajes_municipios
+Monthly Size (tar): 3857561600 bytes
+Total Daily Size (csv.gz): 3857536331 bytes
+Difference: 25269 bytes
+
+202209_Pernoctaciones_GAU
+Monthly Size (tar): 57169920 bytes
+Total Daily Size (csv.gz): 57137774 bytes
+Difference: 32146 bytes
+
+202209_Viajes_GAU
+Monthly Size (tar): 2518517760 bytes
+Total Daily Size (csv.gz): 2518486919 bytes
+Difference: 30841 bytes
+
+202304_Pernoctaciones_distritos
+Monthly Size (tar): 79851520 bytes
+Total Daily Size (csv.gz): 79826215 bytes
+Difference: 25305 bytes
+
+202304_Personas_dia
+Monthly Size (tar): 12851200 bytes
+Total Daily Size (csv.gz): 53009318 bytes
+Difference: -40158118 bytes
+
+202304_Viajes_distritos
+Monthly Size (tar): 5597276160 bytes
+Total Daily Size (csv.gz): 5597249430 bytes
+Difference: 26730 bytes
+
+202304_Pernoctaciones_municipios
+Monthly Size (tar): 63713280 bytes
+Total Daily Size (csv.gz): 63679988 bytes
+Difference: 33292 bytes
+
+202304_Viajes_municipios
+Monthly Size (tar): 3977861120 bytes
+Total Daily Size (csv.gz): 3977836108 bytes
+Difference: 25012 bytes
+
+202304_Pernoctaciones_GAU
+Monthly Size (tar): 54876160 bytes
+Total Daily Size (csv.gz): 54847112 bytes
+Difference: 29048 bytes
+
+202304_Viajes_GAU
+Monthly Size (tar): 2600396800 bytes
+Total Daily Size (csv.gz): 2600364510 bytes
+Difference: 32290 bytes
+
+202203_Pernoctaciones_distritos
+Monthly Size (tar): 58275840 bytes
+Total Daily Size (csv.gz): 58244519 bytes
+Difference: 31321 bytes
+
+202203_Personas_dia
+Monthly Size (tar): 13015040 bytes
+Total Daily Size (csv.gz): 53901286 bytes
+Difference: -40886246 bytes
+
+202203_Viajes_distritos
+Monthly Size (tar): 5349355520 bytes
+Total Daily Size (csv.gz): 5349325538 bytes
+Difference: 29982 bytes
+
+202203_Pernoctaciones_municipios
+Monthly Size (tar): 45639680 bytes
+Total Daily Size (csv.gz): 45609685 bytes
+Difference: 29995 bytes
+
+202203_Viajes_municipios
+Monthly Size (tar): 3752540160 bytes
+Total Daily Size (csv.gz): 3752512881 bytes
+Difference: 27279 bytes
+
+202203_Pernoctaciones_GAU
+Monthly Size (tar): 38533120 bytes
+Total Daily Size (csv.gz): 38509170 bytes
+Difference: 23950 bytes
+
+202203_Viajes_GAU
+Monthly Size (tar): 2393364480 bytes
+Total Daily Size (csv.gz): 2393333949 bytes
+Difference: 30531 bytes
+
+202202_Pernoctaciones_distritos
+Monthly Size (tar): 49162240 bytes
+Total Daily Size (csv.gz): 49133158 bytes
+Difference: 29082 bytes
+
+202202_Personas_dia
+Monthly Size (tar): 11755520 bytes
+Total Daily Size (csv.gz): 48652425 bytes
+Difference: -36896905 bytes
+
+202202_Viajes_distritos
+Monthly Size (tar): 4823142400 bytes
+Total Daily Size (csv.gz): 4823112015 bytes
+Difference: 30385 bytes
+
+202202_Pernoctaciones_municipios
+Monthly Size (tar): 38727680 bytes
+Total Daily Size (csv.gz): 38705318 bytes
+Difference: 22362 bytes
+
+202202_Viajes_municipios
+Monthly Size (tar): 3405752320 bytes
+Total Daily Size (csv.gz): 3405725416 bytes
+Difference: 26904 bytes
+
+202202_Pernoctaciones_GAU
+Monthly Size (tar): 32942080 bytes
+Total Daily Size (csv.gz): 32911554 bytes
+Difference: 30526 bytes
+
+202202_Viajes_GAU
+Monthly Size (tar): 2185687040 bytes
+Total Daily Size (csv.gz): 2185663441 bytes
+Difference: 23599 bytes
+
+202303_Pernoctaciones_distritos
+Monthly Size (tar): 66539520 bytes
+Total Daily Size (csv.gz): 66505445 bytes
+Difference: 34075 bytes
+
+202303_Personas_dia
+Monthly Size (tar): 13025280 bytes
+Total Daily Size (csv.gz): 53892273 bytes
+Difference: -40866993 bytes
+
+202303_Viajes_distritos
+Monthly Size (tar): 5608775680 bytes
+Total Daily Size (csv.gz): 5608741742 bytes
+Difference: 33938 bytes
+
+202303_Pernoctaciones_municipios
+Monthly Size (tar): 51568640 bytes
+Total Daily Size (csv.gz): 51542134 bytes
+Difference: 26506 bytes
+
+202303_Viajes_municipios
+Monthly Size (tar): 3924193280 bytes
+Total Daily Size (csv.gz): 3924157922 bytes
+Difference: 35358 bytes
+
+202303_Pernoctaciones_GAU
+Monthly Size (tar): 42967040 bytes
+Total Daily Size (csv.gz): 42940983 bytes
+Difference: 26057 bytes
+
+202303_Viajes_GAU
+Monthly Size (tar): 2492682240 bytes
+Total Daily Size (csv.gz): 2492652561 bytes
+Difference: 29679 bytes
+
+202302_Pernoctaciones_distritos
+Monthly Size (tar): 58818560 bytes
+Total Daily Size (csv.gz): 58792256 bytes
+Difference: 26304 bytes
+
+202302_Personas_dia
+Monthly Size (tar): 11776000 bytes
+Total Daily Size (csv.gz): 48740228 bytes
+Difference: -36964228 bytes
+
+202302_Viajes_distritos
+Monthly Size (tar): 4964259840 bytes
+Total Daily Size (csv.gz): 4964228293 bytes
+Difference: 31547 bytes
+
+202302_Pernoctaciones_municipios
+Monthly Size (tar): 45486080 bytes
+Total Daily Size (csv.gz): 45462987 bytes
+Difference: 23093 bytes
+
+202302_Viajes_municipios
+Monthly Size (tar): 3463997440 bytes
+Total Daily Size (csv.gz): 3463967005 bytes
+Difference: 30435 bytes
+
+202302_Pernoctaciones_GAU
+Monthly Size (tar): 37928960 bytes
+Total Daily Size (csv.gz): 37903777 bytes
+Difference: 25183 bytes
+
+202302_Viajes_GAU
+Monthly Size (tar): 2196766720 bytes
+Total Daily Size (csv.gz): 2196737171 bytes
+Difference: 29549 bytes
+
+202208_Pernoctaciones_distritos
+Monthly Size (tar): 123330560 bytes
+Total Daily Size (csv.gz): 123301911 bytes
+Difference: 28649 bytes
+
+202208_Personas_dia
+Monthly Size (tar): 13701120 bytes
+Total Daily Size (csv.gz): 56200014 bytes
+Difference: -42498894 bytes
+
+202208_Viajes_distritos
+Monthly Size (tar): 5961840640 bytes
+Total Daily Size (csv.gz): 5961810302 bytes
+Difference: 30338 bytes
+
+202208_Pernoctaciones_municipios
+Monthly Size (tar): 101703680 bytes
+Total Daily Size (csv.gz): 101671548 bytes
+Difference: 32132 bytes
+
+202208_Viajes_municipios
+Monthly Size (tar): 4239595520 bytes
+Total Daily Size (csv.gz): 4239566426 bytes
+Difference: 29094 bytes
+
+202208_Pernoctaciones_GAU
+Monthly Size (tar): 89958400 bytes
+Total Daily Size (csv.gz): 89930644 bytes
+Difference: 27756 bytes
+
+202208_Viajes_GAU
+Monthly Size (tar): 2952960000 bytes
+Total Daily Size (csv.gz): 2952930638 bytes
+Difference: 29362 bytes
+
+202207_Pernoctaciones_distritos
+Monthly Size (tar): 102062080 bytes
+Total Daily Size (csv.gz): 102029871 bytes
+Difference: 32209 bytes
+
+202207_Personas_dia
+Monthly Size (tar): 13568000 bytes
+Total Daily Size (csv.gz): 55802540 bytes
+Difference: -42234540 bytes
+
+202207_Viajes_distritos
+Monthly Size (tar): 5599907840 bytes
+Total Daily Size (csv.gz): 5599877307 bytes
+Difference: 30533 bytes
+
+202207_Pernoctaciones_municipios
+Monthly Size (tar): 82851840 bytes
+Total Daily Size (csv.gz): 82827691 bytes
+Difference: 24149 bytes
+
+202207_Viajes_municipios
+Monthly Size (tar): 4187269120 bytes
+Total Daily Size (csv.gz): 4187239438 bytes
+Difference: 29682 bytes
+
+202207_Pernoctaciones_GAU
+Monthly Size (tar): 71669760 bytes
+Total Daily Size (csv.gz): 71640469 bytes
+Difference: 29291 bytes
+
+202207_Viajes_GAU
+Monthly Size (tar): 2814423040 bytes
+Total Daily Size (csv.gz): 2814394155 bytes
+Difference: 28885 bytes
+
+202206_Pernoctaciones_distritos
+Monthly Size (tar): 72110080 bytes
+Total Daily Size (csv.gz): 72084308 bytes
+Difference: 25772 bytes
+
+202206_Personas_dia
+Monthly Size (tar): 12861440 bytes
+Total Daily Size (csv.gz): 53079713 bytes
+Difference: -40218273 bytes
+
+202206_Viajes_distritos
+Monthly Size (tar): 5554452480 bytes
+Total Daily Size (csv.gz): 5554428034 bytes
+Difference: 24446 bytes
+
+202206_Pernoctaciones_municipios
+Monthly Size (tar): 57794560 bytes
+Total Daily Size (csv.gz): 57761433 bytes
+Difference: 33127 bytes
+
+202206_Viajes_municipios
+Monthly Size (tar): 4011735040 bytes
+Total Daily Size (csv.gz): 4011708698 bytes
+Difference: 26342 bytes
+
+202206_Pernoctaciones_GAU
+Monthly Size (tar): 49223680 bytes
+Total Daily Size (csv.gz): 49195100 bytes
+Difference: 28580 bytes
+
+202206_Viajes_GAU
+Monthly Size (tar): 2611179520 bytes
+Total Daily Size (csv.gz): 2611152754 bytes
+Difference: 26766 bytes
+
+202204_Pernoctaciones_distritos
+Monthly Size (tar): 75837440 bytes
+Total Daily Size (csv.gz): 75804211 bytes
+Difference: 33229 bytes
+
+202204_Personas_dia
+Monthly Size (tar): 12840960 bytes
+Total Daily Size (csv.gz): 52977835 bytes
+Difference: -40136875 bytes
+
+202204_Viajes_distritos
+Monthly Size (tar): 5178337280 bytes
+Total Daily Size (csv.gz): 5178310777 bytes
+Difference: 26503 bytes
+
+202204_Pernoctaciones_municipios
+Monthly Size (tar): 60620800 bytes
+Total Daily Size (csv.gz): 60587486 bytes
+Difference: 33314 bytes
+
+202204_Viajes_municipios
+Monthly Size (tar): 3738398720 bytes
+Total Daily Size (csv.gz): 3738371683 bytes
+Difference: 27037 bytes
+
+202204_Pernoctaciones_GAU
+Monthly Size (tar): 52346880 bytes
+Total Daily Size (csv.gz): 52318347 bytes
+Difference: 28533 bytes
+
+202204_Viajes_GAU
+Monthly Size (tar): 2463969280 bytes
+Total Daily Size (csv.gz): 2463937927 bytes
+Difference: 31353 bytes
+
+202301_Viajes_distritos
+Monthly Size (tar): 5410699264 bytes
+Total Daily Size (csv.gz): 5410673807 bytes
+Difference: 25457 bytes
+
+202301_Personas_dia
+Monthly Size (tar): 16640000 bytes
+Total Daily Size (csv.gz): 54201883 bytes
+Difference: -37561883 bytes
+
+202301_Pernoctaciones_distritos
+Monthly Size (tar): 68397056 bytes
+Total Daily Size (csv.gz): 68372288 bytes
+Difference: 24768 bytes
+
+202301_Viajes_GAU
+Monthly Size (tar): 2379270656 bytes
+Total Daily Size (csv.gz): 2379246989 bytes
+Difference: 23667 bytes
+
+202301_Pernoctaciones_GAU
+Monthly Size (tar): 44201472 bytes
+Total Daily Size (csv.gz): 44176177 bytes
+Difference: 25295 bytes
+
+202301_Pernoctaciones_municipios
+Monthly Size (tar): 53012480 bytes
+Total Daily Size (csv.gz): 52980868 bytes
+Difference: 31612 bytes
+
+202301_Viajes_municipios
+Monthly Size (tar): 3766200320 bytes
+Total Daily Size (csv.gz): 3766168108 bytes
+Difference: 32212 bytes
+
+202212_Viajes_GAU
+Monthly Size (tar): 2320876032 bytes
+Total Daily Size (csv.gz): 2320851270 bytes
+Difference: 24762 bytes
+
+202212_Personas_dia
+Monthly Size (tar): 16797696 bytes
+Total Daily Size (csv.gz): 54719416 bytes
+Difference: -37921720 bytes
+
+202212_Pernoctaciones_GAU
+Monthly Size (tar): 51340288 bytes
+Total Daily Size (csv.gz): 51315077 bytes
+Difference: 25211 bytes
+
+202212_Pernoctaciones_distritos
+Monthly Size (tar): 80812544 bytes
+Total Daily Size (csv.gz): 80788609 bytes
+Difference: 23935 bytes
+
+202212_Pernoctaciones_municipios
+Monthly Size (tar): 61946368 bytes
+Total Daily Size (csv.gz): 61919920 bytes
+Difference: 26448 bytes
+
+202212_Viajes_municipios
+Monthly Size (tar): 3590825984 bytes
+Total Daily Size (csv.gz): 3590801071 bytes
+Difference: 24913 bytes
+
+202210_Pernoctaciones_distritos
+Monthly Size (tar): 78620672 bytes
+Total Daily Size (csv.gz): 78596749 bytes
+Difference: 23923 bytes
+
+202210_Personas_dia
+Monthly Size (tar): 16758784 bytes
+Total Daily Size (csv.gz): 54587505 bytes
+Difference: -37828721 bytes
+
+202210_Viajes_distritos
+Monthly Size (tar): 5351982592 bytes
+Total Daily Size (csv.gz): 5351957641 bytes
+Difference: 24951 bytes
+
+202210_Pernoctaciones_GAU
+Monthly Size (tar): 51320320 bytes
+Total Daily Size (csv.gz): 51294258 bytes
+Difference: 26062 bytes
+
+202210_Viajes_GAU
+Monthly Size (tar): 2483938304 bytes
+Total Daily Size (csv.gz): 2483911946 bytes
+Difference: 26358 bytes
+
+202210_Pernoctaciones_municipios
+Monthly Size (tar): 61072384 bytes
+Total Daily Size (csv.gz): 61046735 bytes
+Difference: 25649 bytes
+
+202210_Viajes_municipios
+Monthly Size (tar): 3840464384 bytes
+Total Daily Size (csv.gz): 3840440430 bytes
+Difference: 23954 bytes
+
+202212_Viajes_distritos
+Monthly Size (tar): 4860164096 bytes
+Total Daily Size (csv.gz): 5041552887 bytes
+Difference: -181388791 bytes
+
+202211_Personas_dia
+Monthly Size (tar): 16081408 bytes
+Total Daily Size (csv.gz): 52405447 bytes
+Difference: -36324039 bytes
+
+202211_Viajes_distritos
+Monthly Size (tar): 5059748352 bytes
+Total Daily Size (csv.gz): 5059723682 bytes
+Difference: 24670 bytes
+
+202211_Pernoctaciones_distritos
+Monthly Size (tar): 70289408 bytes
+Total Daily Size (csv.gz): 70264332 bytes
+Difference: 25076 bytes
+
+202211_Viajes_GAU
+Monthly Size (tar): 2299661312 bytes
+Total Daily Size (csv.gz): 2299637614 bytes
+Difference: 23698 bytes
+
+202211_Pernoctaciones_GAU
+Monthly Size (tar): 44314112 bytes
+Total Daily Size (csv.gz): 44289263 bytes
+Difference: 24849 bytes
+
+202211_Pernoctaciones_municipios
+Monthly Size (tar): 53606912 bytes
+Total Daily Size (csv.gz): 53583949 bytes
+Difference: 22963 bytes
+
+202211_Viajes_municipios
+Monthly Size (tar): 3600456704 bytes
+Total Daily Size (csv.gz): 3600432419 bytes
+Difference: 24285 bytes
+
+202205_Viajes_distritos
+Monthly Size (tar): 5757897728 bytes
+Total Daily Size (csv.gz): 5757872585 bytes
+Difference: 25143 bytes
+
+202205_Viajes_GAU
+Monthly Size (tar): 2648962560 bytes
+Total Daily Size (csv.gz): 2648938920 bytes
+Difference: 23640 bytes
+
+202205_Personas_dia
+Monthly Size (tar): 16670720 bytes
+Total Daily Size (csv.gz): 54304772 bytes
+Difference: -37634052 bytes
+
+202205_Pernoctaciones_GAU
+Monthly Size (tar): 42238976 bytes
+Total Daily Size (csv.gz): 42213252 bytes
+Difference: 25724 bytes
+
+202205_Pernoctaciones_distritos
+Monthly Size (tar): 62225408 bytes
+Total Daily Size (csv.gz): 62202023 bytes
+Difference: 23385 bytes
+
+202205_Pernoctaciones_municipios
+Monthly Size (tar): 49512960 bytes
+Total Daily Size (csv.gz): 49487152 bytes
+Difference: 25808 bytes
+
+202205_Viajes_municipios
+Monthly Size (tar): 4100593152 bytes
+Total Daily Size (csv.gz): 4100568462 bytes
+Difference: 24690 bytes
+

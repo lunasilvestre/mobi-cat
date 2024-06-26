@@ -1,0 +1,3 @@
+s3://mobi-cat/mitma/raw/estudios_basicos/por-distritos/personas/meses-completos/202403_Personas_dia_distritos.tar
+s3://mobi-cat/mitma/raw/estudios_basicos/por-distritos/pernoctaciones/meses-completos/202403_Pernoctaciones_distritos.tar
+s3://mobi-cat/mitma/raw/estudios_basicos/por-municipios/personas/meses-completos/202403_Personas_dia_municipios.tar
